@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>نظام العهد الإلكتروني</title>
 <script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 <style>
   html, body { margin: 0; padding: 0; background: #F6F7F9; }
   #root { min-height: 100vh; }
@@ -12961,16 +12962,23 @@
   ];
   var Clock = createLucideIcon("clock", __iconNode6);
 
-  // node_modules/lucide-react/dist/esm/icons/download.mjs
+  // node_modules/lucide-react/dist/esm/icons/copy.mjs
   var __iconNode7 = [
+    ["rect", { width: "14", height: "14", x: "8", y: "8", rx: "2", ry: "2", key: "17jyea" }],
+    ["path", { d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2", key: "zix9uf" }]
+  ];
+  var Copy = createLucideIcon("copy", __iconNode7);
+
+  // node_modules/lucide-react/dist/esm/icons/download.mjs
+  var __iconNode8 = [
     ["path", { d: "M12 15V3", key: "m9g1x1" }],
     ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }],
     ["path", { d: "m7 10 5 5 5-5", key: "brsn70" }]
   ];
-  var Download = createLucideIcon("download", __iconNode7);
+  var Download = createLucideIcon("download", __iconNode8);
 
   // node_modules/lucide-react/dist/esm/icons/image-off.mjs
-  var __iconNode8 = [
+  var __iconNode9 = [
     ["line", { x1: "2", x2: "22", y1: "2", y2: "22", key: "a6p6uj" }],
     ["path", { d: "M10.41 10.41a2 2 0 1 1-2.83-2.83", key: "1bzlo9" }],
     ["line", { x1: "13.5", x2: "6", y1: "13.5", y2: "21", key: "1q0aeu" }],
@@ -12984,10 +12992,10 @@
     ],
     ["path", { d: "M21 15V5a2 2 0 0 0-2-2H9", key: "43el77" }]
   ];
-  var ImageOff = createLucideIcon("image-off", __iconNode8);
+  var ImageOff = createLucideIcon("image-off", __iconNode9);
 
   // node_modules/lucide-react/dist/esm/icons/laptop.mjs
-  var __iconNode9 = [
+  var __iconNode10 = [
     [
       "path",
       {
@@ -12997,42 +13005,50 @@
     ],
     ["path", { d: "M20.054 15.987H3.946", key: "14rxg9" }]
   ];
-  var Laptop = createLucideIcon("laptop", __iconNode9);
+  var Laptop = createLucideIcon("laptop", __iconNode10);
 
   // node_modules/lucide-react/dist/esm/icons/layout-dashboard.mjs
-  var __iconNode10 = [
+  var __iconNode11 = [
     ["rect", { width: "7", height: "9", x: "3", y: "3", rx: "1", key: "10lvy0" }],
     ["rect", { width: "7", height: "5", x: "14", y: "3", rx: "1", key: "16une8" }],
     ["rect", { width: "7", height: "9", x: "14", y: "12", rx: "1", key: "1hutg5" }],
     ["rect", { width: "7", height: "5", x: "3", y: "16", rx: "1", key: "ldoo1y" }]
   ];
-  var LayoutDashboard = createLucideIcon("layout-dashboard", __iconNode10);
+  var LayoutDashboard = createLucideIcon("layout-dashboard", __iconNode11);
+
+  // node_modules/lucide-react/dist/esm/icons/link-2.mjs
+  var __iconNode12 = [
+    ["path", { d: "M9 17H7A5 5 0 0 1 7 7h2", key: "8i5ue5" }],
+    ["path", { d: "M15 7h2a5 5 0 1 1 0 10h-2", key: "1b9ql8" }],
+    ["line", { x1: "8", x2: "16", y1: "12", y2: "12", key: "1jonct" }]
+  ];
+  var Link2 = createLucideIcon("link-2", __iconNode12);
 
   // node_modules/lucide-react/dist/esm/icons/lock.mjs
-  var __iconNode11 = [
+  var __iconNode13 = [
     ["rect", { width: "18", height: "11", x: "3", y: "11", rx: "2", ry: "2", key: "1w4ew1" }],
     ["path", { d: "M7 11V7a5 5 0 0 1 10 0v4", key: "fwvmzm" }]
   ];
-  var Lock = createLucideIcon("lock", __iconNode11);
+  var Lock = createLucideIcon("lock", __iconNode13);
 
   // node_modules/lucide-react/dist/esm/icons/log-out.mjs
-  var __iconNode12 = [
+  var __iconNode14 = [
     ["path", { d: "m16 17 5-5-5-5", key: "1bji2h" }],
     ["path", { d: "M21 12H9", key: "dn1m92" }],
     ["path", { d: "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4", key: "1uf3rs" }]
   ];
-  var LogOut = createLucideIcon("log-out", __iconNode12);
+  var LogOut = createLucideIcon("log-out", __iconNode14);
 
   // node_modules/lucide-react/dist/esm/icons/menu.mjs
-  var __iconNode13 = [
+  var __iconNode15 = [
     ["path", { d: "M4 5h16", key: "1tepv9" }],
     ["path", { d: "M4 12h16", key: "1lakjw" }],
     ["path", { d: "M4 19h16", key: "1djgab" }]
   ];
-  var Menu = createLucideIcon("menu", __iconNode13);
+  var Menu = createLucideIcon("menu", __iconNode15);
 
   // node_modules/lucide-react/dist/esm/icons/package.mjs
-  var __iconNode14 = [
+  var __iconNode16 = [
     [
       "path",
       {
@@ -13044,17 +13060,17 @@
     ["polyline", { points: "3.29 7 12 12 20.71 7", key: "ousv84" }],
     ["path", { d: "m7.5 4.27 9 5.15", key: "1c824w" }]
   ];
-  var Package = createLucideIcon("package", __iconNode14);
+  var Package = createLucideIcon("package", __iconNode16);
 
   // node_modules/lucide-react/dist/esm/icons/plus.mjs
-  var __iconNode15 = [
+  var __iconNode17 = [
     ["path", { d: "M5 12h14", key: "1ays0h" }],
     ["path", { d: "M12 5v14", key: "s699le" }]
   ];
-  var Plus = createLucideIcon("plus", __iconNode15);
+  var Plus = createLucideIcon("plus", __iconNode17);
 
   // node_modules/lucide-react/dist/esm/icons/printer.mjs
-  var __iconNode16 = [
+  var __iconNode18 = [
     [
       "path",
       {
@@ -13065,17 +13081,17 @@
     ["path", { d: "M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6", key: "1itne7" }],
     ["rect", { x: "6", y: "14", width: "12", height: "8", rx: "1", key: "1ue0tg" }]
   ];
-  var Printer = createLucideIcon("printer", __iconNode16);
+  var Printer = createLucideIcon("printer", __iconNode18);
 
   // node_modules/lucide-react/dist/esm/icons/rotate-ccw.mjs
-  var __iconNode17 = [
+  var __iconNode19 = [
     ["path", { d: "M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8", key: "1357e3" }],
     ["path", { d: "M3 3v5h5", key: "1xhq8a" }]
   ];
-  var RotateCcw = createLucideIcon("rotate-ccw", __iconNode17);
+  var RotateCcw = createLucideIcon("rotate-ccw", __iconNode19);
 
   // node_modules/lucide-react/dist/esm/icons/save.mjs
-  var __iconNode18 = [
+  var __iconNode20 = [
     [
       "path",
       {
@@ -13086,17 +13102,30 @@
     ["path", { d: "M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7", key: "1ydtos" }],
     ["path", { d: "M7 3v4a1 1 0 0 0 1 1h7", key: "t51u73" }]
   ];
-  var Save = createLucideIcon("save", __iconNode18);
+  var Save = createLucideIcon("save", __iconNode20);
 
   // node_modules/lucide-react/dist/esm/icons/search.mjs
-  var __iconNode19 = [
+  var __iconNode21 = [
     ["path", { d: "m21 21-4.34-4.34", key: "14j7rj" }],
     ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }]
   ];
-  var Search = createLucideIcon("search", __iconNode19);
+  var Search = createLucideIcon("search", __iconNode21);
+
+  // node_modules/lucide-react/dist/esm/icons/send.mjs
+  var __iconNode22 = [
+    [
+      "path",
+      {
+        d: "M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z",
+        key: "1ffxy3"
+      }
+    ],
+    ["path", { d: "m21.854 2.147-10.94 10.939", key: "12cjpa" }]
+  ];
+  var Send = createLucideIcon("send", __iconNode22);
 
   // node_modules/lucide-react/dist/esm/icons/settings.mjs
-  var __iconNode20 = [
+  var __iconNode23 = [
     [
       "path",
       {
@@ -13106,10 +13135,10 @@
     ],
     ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
   ];
-  var Settings = createLucideIcon("settings", __iconNode20);
+  var Settings = createLucideIcon("settings", __iconNode23);
 
   // node_modules/lucide-react/dist/esm/icons/shield-check.mjs
-  var __iconNode21 = [
+  var __iconNode24 = [
     [
       "path",
       {
@@ -13119,50 +13148,50 @@
     ],
     ["path", { d: "m9 12 2 2 4-4", key: "dzmm74" }]
   ];
-  var ShieldCheck = createLucideIcon("shield-check", __iconNode21);
+  var ShieldCheck = createLucideIcon("shield-check", __iconNode24);
 
   // node_modules/lucide-react/dist/esm/icons/trash-2.mjs
-  var __iconNode22 = [
+  var __iconNode25 = [
     ["path", { d: "M10 11v6", key: "nco0om" }],
     ["path", { d: "M14 11v6", key: "outv1u" }],
     ["path", { d: "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6", key: "miytrc" }],
     ["path", { d: "M3 6h18", key: "d0wm0j" }],
     ["path", { d: "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2", key: "e791ji" }]
   ];
-  var Trash2 = createLucideIcon("trash-2", __iconNode22);
+  var Trash2 = createLucideIcon("trash-2", __iconNode25);
 
   // node_modules/lucide-react/dist/esm/icons/upload.mjs
-  var __iconNode23 = [
+  var __iconNode26 = [
     ["path", { d: "M12 3v12", key: "1x0j5s" }],
     ["path", { d: "m17 8-5-5-5 5", key: "7q97r8" }],
     ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }]
   ];
-  var Upload = createLucideIcon("upload", __iconNode23);
+  var Upload = createLucideIcon("upload", __iconNode26);
 
   // node_modules/lucide-react/dist/esm/icons/user-plus.mjs
-  var __iconNode24 = [
+  var __iconNode27 = [
     ["path", { d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2", key: "1yyitq" }],
     ["circle", { cx: "9", cy: "7", r: "4", key: "nufk8" }],
     ["line", { x1: "19", x2: "19", y1: "8", y2: "14", key: "1bvyxn" }],
     ["line", { x1: "22", x2: "16", y1: "11", y2: "11", key: "1shjgl" }]
   ];
-  var UserPlus = createLucideIcon("user-plus", __iconNode24);
+  var UserPlus = createLucideIcon("user-plus", __iconNode27);
 
   // node_modules/lucide-react/dist/esm/icons/users.mjs
-  var __iconNode25 = [
+  var __iconNode28 = [
     ["path", { d: "M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2", key: "1yyitq" }],
     ["path", { d: "M16 3.128a4 4 0 0 1 0 7.744", key: "16gr8j" }],
     ["path", { d: "M22 21v-2a4 4 0 0 0-3-3.87", key: "kshegd" }],
     ["circle", { cx: "9", cy: "7", r: "4", key: "nufk8" }]
   ];
-  var Users = createLucideIcon("users", __iconNode25);
+  var Users = createLucideIcon("users", __iconNode28);
 
   // node_modules/lucide-react/dist/esm/icons/x.mjs
-  var __iconNode26 = [
+  var __iconNode29 = [
     ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
     ["path", { d: "m6 6 12 12", key: "d8bk6v" }]
   ];
-  var X = createLucideIcon("x", __iconNode26);
+  var X = createLucideIcon("x", __iconNode29);
 
   // node_modules/xlsx/xlsx.mjs
   var XLSX = {};
@@ -33666,10 +33695,56 @@
   var version = XLSX.version;
 
   // App.jsx
-  var STATUS = { ACTIVE: "\u0645\u0633\u062A\u0644\u0645\u0629", RETURNED: "\u0645\u0631\u062C\u0639\u0629" };
+  var STATUS = { ACTIVE: "\u0645\u0633\u062A\u0644\u0645\u0629", PENDING: "\u0628\u0627\u0646\u062A\u0638\u0627\u0631 \u0627\u0633\u062A\u0644\u0627\u0645 \u0627\u0644\u0645\u0648\u0638\u0641", RETURNED: "\u0645\u0631\u062C\u0639\u0629" };
+  var CONFIRMED_LABEL = "\u0645\u0633\u062A\u0644\u0645\u0629 \u0645\u0646 \u0642\u0628\u0644 \u0627\u0644\u0645\u0648\u0638\u0641";
   var ASSET_STATUS = { AVAILABLE: "\u0645\u062A\u0627\u062D\u0629", ASSIGNED: "\u0645\u0639 \u0645\u0648\u0638\u0641", MAINTENANCE: "\u0635\u064A\u0627\u0646\u0629", RETIRED: "\u0645\u0633\u062A\u0628\u0639\u062F\u0629" };
   var ROLES = { ADMIN: "\u0645\u062F\u064A\u0631 \u0627\u0644\u0646\u0638\u0627\u0645", ISSUER: "\u0645\u0633\u0624\u0648\u0644 \u062A\u0633\u0644\u064A\u0645 \u0627\u0644\u0639\u0647\u062F", VIEWER: "\u0639\u0631\u0636 \u0641\u0642\u0637" };
   var CUSTODY_TYPE = { PERMANENT: "\u062F\u0627\u0626\u0645\u0629", TEMPORARY: "\u0645\u0624\u0642\u062A\u0629" };
+  var DEVICE_TYPES = [
+    "\u0644\u0627\u0628\u062A\u0648\u0628",
+    "\u0643\u0645\u0628\u064A\u0648\u062A\u0631 \u0645\u0643\u062A\u0628\u064A",
+    "\u0634\u0627\u0634\u0629",
+    "\u0637\u0627\u0628\u0639\u0629",
+    "\u0645\u0627\u0648\u0633",
+    "\u0644\u0648\u062D\u0629 \u0645\u0641\u0627\u062A\u064A\u062D",
+    "\u0633\u0645\u0627\u0639\u0629 \u0631\u0623\u0633",
+    "\u0643\u0627\u0645\u064A\u0631\u0627 \u0648\u064A\u0628",
+    "\u0631\u0627\u0648\u062A\u0631",
+    "\u0633\u0648\u064A\u062A\u0634 \u0634\u0628\u0643\u0629",
+    "\u0647\u0627\u062A\u0641 \u0645\u0643\u062A\u0628\u064A",
+    "\u062C\u0647\u0627\u0632 \u0639\u0631\u0636 (\u0628\u0631\u0648\u062C\u0643\u062A\u0631)",
+    "\u0633\u0643\u0627\u0646\u0631",
+    "\u0647\u0627\u0631\u062F \u062E\u0627\u0631\u062C\u064A",
+    "\u0641\u0644\u0627\u0634 \u0645\u064A\u0645\u0648\u0631\u064A",
+    "\u062A\u0627\u0628\u0644\u062A",
+    "\u062C\u0647\u0627\u0632 \u0646\u0642\u0637\u0629 \u0628\u064A\u0639 (POS)",
+    "\u0648\u062D\u062F\u0629 \u0625\u0645\u062F\u0627\u062F \u0637\u0627\u0642\u0629 (UPS)",
+    "\u0646\u0642\u0637\u0629 \u0648\u0635\u0648\u0644 \u0644\u0627\u0633\u0644\u0643\u064A\u0629 (Access Point)",
+    "\u0633\u064A\u0631\u0641\u0631",
+    "\u0623\u062E\u0631\u0649"
+  ];
+  var DEVICE_BRANDS = [
+    "Dell",
+    "HP",
+    "Lenovo",
+    "Apple",
+    "Asus",
+    "Acer",
+    "MSI",
+    "Microsoft (Surface)",
+    "Samsung",
+    "LG",
+    "Toshiba",
+    "Huawei",
+    "Honor",
+    "Xiaomi",
+    "Razer",
+    "Gigabyte",
+    "Alienware",
+    "Fujitsu",
+    "Panasonic (Toughbook)",
+    "\u0623\u062E\u0631\u0649"
+  ];
   var DEMO_LOGIN_EMAIL = "admin@it.com";
   var DEMO_LOGIN_PASSWORD = "123";
   var emptyRecordForm = {
@@ -33689,19 +33764,30 @@
     custodyType: CUSTODY_TYPE.PERMANENT,
     assignDate: (/* @__PURE__ */ new Date()).toISOString().slice(0, 10),
     dueDate: "",
-    handedBy: ""
+    handedBy: "",
+    deliveryMethod: "direct"
   };
   var emptyEmployeeForm = { name: "", empNo: "", department: "", jobTitle: "", phone: "", email: "" };
   var emptyAssetForm = { deviceType: "", brand: "", model: "", serial: "", purchaseDate: "", warrantyEnd: "" };
-  var DEFAULT_SETTINGS = { name: "\u0646\u0638\u0627\u0645 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A", logo: null };
+  var DEFAULT_SETTINGS = {
+    name: "\u0646\u0638\u0627\u0645 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A",
+    logo: null,
+    emailjsServiceId: "",
+    emailjsTemplateId: "",
+    emailjsPublicKey: ""
+  };
   var ACKNOWLEDGMENT_TEXT = "\u0623\u0642\u0631\u0651 \u0623\u0646\u0627 \u0627\u0644\u0645\u0648\u0638\u0641 \u0627\u0644\u0645\u0648\u0636\u062D \u0627\u0633\u0645\u0647 \u0623\u0639\u0644\u0627\u0647 \u0628\u0623\u0646\u0646\u064A \u0627\u0633\u062A\u0644\u0645\u062A \u0627\u0644\u0639\u0647\u062F\u0629 \u0627\u0644\u0645\u0630\u0643\u0648\u0631\u0629 \u0641\u064A \u0647\u0630\u0627 \u0627\u0644\u0646\u0645\u0648\u0630\u062C \u0628\u062D\u0627\u0644\u0629 \u062C\u064A\u062F\u0629 \u0648\u062E\u0627\u0644\u064A\u0629 \u0645\u0646 \u0623\u064A \u0639\u064A\u0648\u0628 \u0638\u0627\u0647\u0631\u0629\u060C \u0648\u0623\u062A\u0639\u0647\u062F \u0628\u0645\u0627 \u064A\u0644\u064A:\n\u0661. \u0627\u0633\u062A\u062E\u062F\u0627\u0645 \u0627\u0644\u0639\u0647\u062F\u0629 \u0641\u064A \u0623\u063A\u0631\u0627\u0636 \u0627\u0644\u0639\u0645\u0644 \u0627\u0644\u0631\u0633\u0645\u064A\u0629 \u0641\u0642\u0637 \u0648\u0627\u0644\u0645\u062D\u0627\u0641\u0638\u0629 \u0639\u0644\u064A\u0647\u0627 \u0645\u0646 \u0627\u0644\u062A\u0644\u0641 \u0623\u0648 \u0627\u0644\u0641\u0642\u062F\u0627\u0646.\n\u0662. \u0625\u0628\u0644\u0627\u063A \u0642\u0633\u0645 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0641\u0648\u0631\u064B\u0627 \u0641\u064A \u062D\u0627\u0644 \u062D\u062F\u0648\u062B \u0623\u064A \u0639\u0637\u0644 \u0623\u0648 \u062A\u0644\u0641 \u0623\u0648 \u0641\u0642\u062F\u0627\u0646.\n\u0663. \u0625\u0639\u0627\u062F\u0629 \u0627\u0644\u0639\u0647\u062F\u0629 \u0628\u062D\u0627\u0644\u062A\u0647\u0627 \u0639\u0646\u062F \u0627\u0646\u062A\u0647\u0627\u0621 \u0627\u0644\u062D\u0627\u062C\u0629 \u0625\u0644\u064A\u0647\u0627 \u0623\u0648 \u0639\u0646\u062F \u0637\u0644\u0628 \u0627\u0644\u0625\u062F\u0627\u0631\u0629 \u0623\u0648 \u0639\u0646\u062F \u0627\u0646\u062A\u0647\u0627\u0621 \u0627\u0644\u062E\u062F\u0645\u0629.\n\u0664. \u062A\u062D\u0645\u0651\u0644 \u0627\u0644\u0645\u0633\u0624\u0648\u0644\u064A\u0629 \u0627\u0644\u0643\u0627\u0645\u0644\u0629 \u0639\u0646 \u0623\u064A \u0636\u0631\u0631 \u0646\u0627\u062A\u062C \u0639\u0646 \u0627\u0644\u0625\u0647\u0645\u0627\u0644 \u0623\u0648 \u0633\u0648\u0621 \u0627\u0644\u0627\u0633\u062A\u062E\u062F\u0627\u0645.\n\u0648\u064A\u064F\u0639\u062F \u0627\u0644\u062A\u0648\u0642\u064A\u0639 \u0623\u062F\u0646\u0627\u0647 \u0625\u0642\u0631\u0627\u0631\u064B\u0627 \u0646\u0647\u0627\u0626\u064A\u064B\u0627 \u0648\u0645\u0644\u0632\u0645\u064B\u0627 \u0628\u0630\u0644\u0643.";
   function StatusBadge({ status }) {
     const styles = {
       [STATUS.ACTIVE]: "bg-[#FBF0DB] text-[#92660E]",
+      [STATUS.PENDING]: "bg-[#EAE8FD] text-[#4C3FD6]",
+      [CONFIRMED_LABEL]: "bg-[#DFF3F2] text-[#0B6E77]",
       [STATUS.RETURNED]: "bg-[#E4F6E9] text-[#22753A]"
     };
     const icons = {
       [STATUS.ACTIVE]: /* @__PURE__ */ import_react4.default.createElement(Clock, { size: 12 }),
+      [STATUS.PENDING]: /* @__PURE__ */ import_react4.default.createElement(Send, { size: 12 }),
+      [CONFIRMED_LABEL]: /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 12 }),
       [STATUS.RETURNED]: /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 12 })
     };
     return /* @__PURE__ */ import_react4.default.createElement(
@@ -33712,6 +33798,17 @@
       icons[status] || icons[STATUS.ACTIVE],
       status
     );
+  }
+  function statusDisplay(r) {
+    if (r.status === STATUS.ACTIVE && r.confirmedByEmployee) return CONFIRMED_LABEL;
+    return r.status;
+  }
+  function confirmationLine(r) {
+    if (!r.confirmedByEmployee || !r.confirmedAt) return "";
+    const dt = new Date(r.confirmedAt);
+    const dateStr = dt.toLocaleDateString("ar-SA");
+    const timeStr = dt.toLocaleTimeString("ar-SA", { hour: "2-digit", minute: "2-digit" });
+    return `\u062A\u0645 \u062A\u0623\u0643\u064A\u062F \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645 \u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u064B\u0627 \u0645\u0646 \u0642\u0628\u0644 \u0627\u0644\u0645\u0648\u0638\u0641 \u0628\u062A\u0627\u0631\u064A\u062E ${dateStr} \u0627\u0644\u0633\u0627\u0639\u0629 ${timeStr}.`;
   }
   function AssetStatusBadge({ status }) {
     const styles = {
@@ -33734,7 +33831,34 @@
   function OverdueBadge() {
     return /* @__PURE__ */ import_react4.default.createElement("span", { className: "inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-[#FBE3E1] text-[#B42318]" }, /* @__PURE__ */ import_react4.default.createElement(CircleAlert, { size: 12 }), " \u0645\u062A\u0623\u062E\u0631\u0629");
   }
-  var isOverdue = (r) => r.status === STATUS.ACTIVE && r.dueDate && r.dueDate < (/* @__PURE__ */ new Date()).toISOString().slice(0, 10);
+  function daysLabelAr(days2) {
+    if (days2 === 0) return "\u0627\u0644\u064A\u0648\u0645";
+    if (days2 === 1) return "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F";
+    if (days2 === 2) return "\u062E\u0644\u0627\u0644 \u064A\u0648\u0645\u064A\u0646";
+    if (days2 >= 3 && days2 <= 10) return `\u062E\u0644\u0627\u0644 ${days2} \u0623\u064A\u0627\u0645`;
+    return `\u062E\u0644\u0627\u0644 ${days2} \u064A\u0648\u0645\u064B\u0627`;
+  }
+  function daysOverdueLabelAr(days2) {
+    if (days2 === 1) return "\u0645\u0646\u0630 \u064A\u0648\u0645 \u0648\u0627\u062D\u062F";
+    if (days2 === 2) return "\u0645\u0646\u0630 \u064A\u0648\u0645\u064A\u0646";
+    if (days2 >= 3 && days2 <= 10) return `\u0645\u0646\u0630 ${days2} \u0623\u064A\u0627\u0645`;
+    return `\u0645\u0646\u0630 ${days2} \u064A\u0648\u0645\u064B\u0627`;
+  }
+  function DueSoonBadge({ days: days2 }) {
+    return /* @__PURE__ */ import_react4.default.createElement("span", { className: "inline-flex items-center gap-1 px-2.5 py-1 rounded-full text-xs font-medium bg-[#FDF1DC] text-[#92660E]" }, /* @__PURE__ */ import_react4.default.createElement(Clock, { size: 12 }), " \u062A\u064F\u0633\u062A\u062D\u0642 ", daysLabelAr(days2));
+  }
+  var todayIso = () => (/* @__PURE__ */ new Date()).toISOString().slice(0, 10);
+  var isHeld = (r) => r.status === STATUS.ACTIVE || r.status === STATUS.PENDING;
+  var isOverdue = (r) => isHeld(r) && r.dueDate && r.dueDate < todayIso();
+  var daysUntilDue = (r) => {
+    if (!r.dueDate) return null;
+    return Math.ceil((new Date(r.dueDate) - new Date(todayIso())) / 864e5);
+  };
+  var isDueSoon = (r, withinDays = 7) => {
+    if (!isHeld(r) || !r.dueDate) return false;
+    const d = daysUntilDue(r);
+    return d !== null && d >= 0 && d <= withinDays;
+  };
   function formatDMY(iso) {
     if (!iso) return "";
     const [y, m, d] = iso.split("-");
@@ -33784,6 +33908,37 @@
     if (!text) return null;
     return /* @__PURE__ */ import_react4.default.createElement("div", { className: "fixed top-6 left-1/2 -translate-x-1/2 bg-[#1A2027] text-white text-sm px-4 py-2.5 rounded-lg shadow-lg z-50 flex items-center gap-2 max-w-[90vw] text-center" }, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 14, className: "text-[#0C8599] flex-shrink-0" }), " ", text);
   }
+  function ConfirmReceiptScreen({ record, employee, settings, onConfirm }) {
+    const [submitting, setSubmitting] = (0, import_react4.useState)(false);
+    const alreadyConfirmed = record.status !== STATUS.PENDING;
+    const handleConfirm = () => {
+      setSubmitting(true);
+      onConfirm();
+    };
+    return /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-h-screen overflow-y-auto bg-[#F6F7F9] p-4 sm:p-8", dir: "rtl" }, /* @__PURE__ */ import_react4.default.createElement("style", null, `
+        @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+        * { font-family: 'IBM Plex Sans Arabic', sans-serif; }
+        .font-mono { font-family: 'IBM Plex Mono', monospace; }
+        @media print { .no-print { display: none !important; } }
+      `), /* @__PURE__ */ import_react4.default.createElement("div", { className: "max-w-lg mx-auto py-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2.5 mb-6 justify-center" }, /* @__PURE__ */ import_react4.default.createElement(BrandMark, { logo: settings.logo, size: 34, radius: 9 }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-sm font-semibold text-[#1A2027]" }, settings.name)), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-white rounded-xl border border-[#E3E6EA] p-5 sm:p-7" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between mb-5" }, /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-lg font-bold text-[#1A2027]" }, "\u062A\u0623\u0643\u064A\u062F \u0627\u0633\u062A\u0644\u0627\u0645 \u0639\u0647\u062F\u0629 \u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u0629"), /* @__PURE__ */ import_react4.default.createElement(TagBadge, { code: record.code, small: true })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F6F7F9] rounded-lg p-4 mb-5 grid grid-cols-2 gap-x-6 gap-y-3" }, /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0633\u0645 \u0627\u0644\u0645\u0648\u0638\u0641", value: employee?.name }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632", value: record.deviceType }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0627\u0631\u0643\u0629 \u0648\u0627\u0644\u0645\u0648\u062F\u064A\u0644", value: [record.brand, record.model].filter(Boolean).join(" ") }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A", value: record.serial, mono: true }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: formatDMY(record.assignDate) }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0623\u0635\u0644 \u0627\u0644\u062B\u0627\u0628\u062A", value: record.assetTag || "\u2014", mono: true })), alreadyConfirmed ? /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-center py-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-14 h-14 rounded-full bg-[#DFF3F2] flex items-center justify-center mx-auto mb-3" }, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 26, className: "text-[#0B6E77]" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-base font-bold text-[#1A2027] mb-1" }, "\u062A\u0645 \u062A\u0623\u0643\u064A\u062F \u0627\u0633\u062A\u0644\u0627\u0645\u0643 \u0644\u0644\u0639\u0647\u062F\u0629 \u0628\u0646\u062C\u0627\u062D"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm text-[#6B7280] mb-4" }, confirmationLine(record)), /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        onClick: () => window.print(),
+        className: "no-print flex items-center gap-2 mx-auto bg-[#0C8599] hover:bg-[#086674] text-white text-sm px-4 py-2 rounded-lg transition-colors"
+      },
+      /* @__PURE__ */ import_react4.default.createElement(Printer, { size: 15 }),
+      " \u0637\u0628\u0627\u0639\u0629 \u0646\u0633\u062E\u0629 \u0644\u064A"
+    )) : /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-4 mb-4" }, /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-xs text-[#6B7280] leading-relaxed" }, "\u0628\u0627\u0644\u0636\u063A\u0637 \u0639\u0644\u0649 \u0627\u0644\u0632\u0631 \u0623\u062F\u0646\u0627\u0647\u060C \u0623\u0646\u062A \u062A\u0642\u0631\u0651 \u0628\u0627\u0633\u062A\u0644\u0627\u0645 \u0627\u0644\u0639\u0647\u062F\u0629 \u0627\u0644\u0645\u0648\u0636\u062D\u0629 \u0623\u0639\u0644\u0627\u0647 \u0628\u062D\u0627\u0644\u0629 \u062C\u064A\u062F\u0629. \u0633\u062A\u062A\u062D\u062F\u062B \u062D\u0627\u0644\u0629 \u0627\u0644\u0639\u0647\u062F\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0644\u062F\u0649 \u0642\u0633\u0645 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0641\u0648\u0631 \u062A\u0623\u0643\u064A\u062F\u0643.")), /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        onClick: handleConfirm,
+        disabled: submitting,
+        className: "w-full flex items-center justify-center gap-2 bg-[#0C8599] hover:bg-[#086674] disabled:opacity-60 text-white text-sm px-4 py-2.5 rounded-lg transition-colors"
+      },
+      /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 16 }),
+      " \u0627\u0633\u062A\u0644\u0627\u0645 \u0627\u0644\u0639\u0647\u062F\u0629"
+    )))));
+  }
   function App() {
     const [loaded, setLoaded] = (0, import_react4.useState)(false);
     const [saving, setSaving] = (0, import_react4.useState)(false);
@@ -33809,8 +33964,16 @@
     const [profileRoleDraft, setProfileRoleDraft] = (0, import_react4.useState)(ROLES.ADMIN);
     const [mobileNavOpen, setMobileNavOpen] = (0, import_react4.useState)(false);
     const [labelAssetId, setLabelAssetId] = (0, import_react4.useState)(null);
+    const [shareRecordId, setShareRecordId] = (0, import_react4.useState)(null);
+    const [emailSendStatus, setEmailSendStatus] = (0, import_react4.useState)("idle");
+    const [confirmHash] = (0, import_react4.useState)(() => {
+      if (typeof window === "undefined") return null;
+      const m = window.location.hash.match(/confirm=([\w-]+)/);
+      return m ? m[1] : null;
+    });
     const [settings, setSettings] = (0, import_react4.useState)(DEFAULT_SETTINGS);
     const [nameDraft, setNameDraft] = (0, import_react4.useState)(DEFAULT_SETTINGS.name);
+    const [emailjsDraft, setEmailjsDraft] = (0, import_react4.useState)({ serviceId: "", templateId: "", publicKey: "" });
     const fileInputRef = (0, import_react4.useRef)(null);
     const logoInputRef = (0, import_react4.useRef)(null);
     const canManage = currentUser?.role === ROLES.ADMIN;
@@ -33834,6 +33997,11 @@
             const parsedCfg = { ...DEFAULT_SETTINGS, ...JSON.parse(cfg.value) };
             setSettings(parsedCfg);
             setNameDraft(parsedCfg.name);
+            setEmailjsDraft({
+              serviceId: parsedCfg.emailjsServiceId || "",
+              templateId: parsedCfg.emailjsTemplateId || "",
+              publicKey: parsedCfg.emailjsPublicKey || ""
+            });
           }
           if (usr) {
             const parsedUser = JSON.parse(usr.value);
@@ -33848,6 +34016,21 @@
         }
       })();
     }, []);
+    (0, import_react4.useEffect)(() => {
+      if (typeof window === "undefined" || window.emailjs) return;
+      try {
+        const script = document.createElement("script");
+        script.src = "https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js";
+        script.async = true;
+        script.onerror = () => {
+        };
+        document.head.appendChild(script);
+      } catch (e) {
+      }
+    }, []);
+    (0, import_react4.useEffect)(() => {
+      setEmailSendStatus("idle");
+    }, [shareRecordId]);
     const handleLogin = (e) => {
       e.preventDefault();
       const emailOk = loginEmail.trim().toLowerCase() === DEMO_LOGIN_EMAIL;
@@ -33911,6 +34094,16 @@
       }
       saveSettings({ ...settings, name: trimmed });
       showToast("\u062A\u0645 \u062A\u062D\u062F\u064A\u062B \u0627\u0633\u0645 \u0627\u0644\u0646\u0638\u0627\u0645");
+    };
+    const saveEmailjsSettings = (e) => {
+      e.preventDefault();
+      saveSettings({
+        ...settings,
+        emailjsServiceId: emailjsDraft.serviceId.trim(),
+        emailjsTemplateId: emailjsDraft.templateId.trim(),
+        emailjsPublicKey: emailjsDraft.publicKey.trim()
+      });
+      showToast("\u062A\u0645 \u062D\u0641\u0638 \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A");
     };
     const handleLogoChange = (e) => {
       const file = e.target.files?.[0];
@@ -34015,10 +34208,13 @@
         return;
       }
       const isTemporary = recordForm.custodyType === CUSTODY_TYPE.TEMPORARY;
+      const needsConfirmation = recordForm.deliveryMethod === "employee_confirm";
       const newRec = {
         id: "r" + Date.now(),
         code: nextCode(),
-        status: STATUS.ACTIVE,
+        status: needsConfirmation ? STATUS.PENDING : STATUS.ACTIVE,
+        confirmedByEmployee: false,
+        confirmedAt: null,
         returnDate: null,
         ...recordForm,
         assignDate: recordForm.assignDate || (/* @__PURE__ */ new Date()).toISOString().slice(0, 10),
@@ -34029,8 +34225,19 @@
         saveAssets(assets.map((a) => a.id === recordForm.assetId ? { ...a, status: ASSET_STATUS.ASSIGNED } : a));
       }
       setRecordForm(emptyRecordForm);
-      setPage("records");
-      showToast("\u062A\u0645 \u062A\u0633\u062C\u064A\u0644 \u0627\u0644\u0639\u0647\u062F\u0629 \u0628\u0646\u062C\u0627\u062D");
+      if (needsConfirmation) {
+        setShareRecordId(newRec.id);
+        showToast("\u062A\u0645 \u0627\u0644\u062D\u0641\u0638 \u2014 \u0634\u0627\u0631\u0643 \u0631\u0627\u0628\u0637 \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645 \u0645\u0639 \u0627\u0644\u0645\u0648\u0638\u0641");
+      } else {
+        setPage("records");
+        showToast("\u062A\u0645 \u062A\u0633\u062C\u064A\u0644 \u0627\u0644\u0639\u0647\u062F\u0629 \u0628\u0646\u062C\u0627\u062D");
+      }
+    };
+    const confirmReceiptRemotely = (recordId) => {
+      const list = records.map(
+        (r) => r.id === recordId ? { ...r, status: STATUS.ACTIVE, confirmedByEmployee: true, confirmedAt: (/* @__PURE__ */ new Date()).toISOString() } : r
+      );
+      saveRecords(list);
     };
     const markReturned = (id) => {
       const rec = records.find((r) => r.id === id);
@@ -34053,7 +34260,7 @@
     };
     const deleteRecord = (id) => {
       const rec = records.find((r) => r.id === id);
-      if (rec?.assetId && rec.status === STATUS.ACTIVE) {
+      if (rec?.assetId && (rec.status === STATUS.ACTIVE || rec.status === STATUS.PENDING)) {
         saveAssets(assets.map((a) => a.id === rec.assetId ? { ...a, status: ASSET_STATUS.AVAILABLE } : a));
       }
       saveRecords(records.filter((r) => r.id !== id));
@@ -34062,27 +34269,37 @@
     const employeeName = (id) => employees.find((e) => e.id === id)?.name || "\u2014";
     const employeeById = (id) => employees.find((e) => e.id === id);
     const filteredRecords = records.filter((r) => {
-      const matchStatus = statusFilter === "\u0627\u0644\u0643\u0644" || r.status === statusFilter;
+      const matchStatus = statusFilter === "\u0627\u0644\u0643\u0644" ? true : statusFilter === "\u0645\u062A\u0623\u062E\u0631\u0629" ? isOverdue(r) : statusFilter === "\u062A\u0633\u062A\u062D\u0642 \u0642\u0631\u064A\u0628\u064B\u0627" ? isDueSoon(r) : r.status === statusFilter;
       const q = search.trim().toLowerCase();
       const matchSearch = !q || employeeName(r.employeeId).toLowerCase().includes(q) || r.serial.toLowerCase().includes(q) || r.deviceType.toLowerCase().includes(q) || r.code.toLowerCase().includes(q);
       return matchStatus && matchSearch;
     });
     const activeCount = records.filter((r) => r.status === STATUS.ACTIVE).length;
     const returnedCount = records.filter((r) => r.status === STATUS.RETURNED).length;
-    const overdueCount = records.filter(isOverdue).length;
+    const overdueRecords = records.filter(isOverdue);
+    const overdueCount = overdueRecords.length;
+    const dueSoonRecords = records.filter((r) => isDueSoon(r));
+    const dueSoonCount = dueSoonRecords.length;
     const exportExcel = () => {
       try {
         const rows = records.map((r) => ({
           "\u0631\u0642\u0645 \u0627\u0644\u0639\u0647\u062F\u0629": r.code,
           "\u0627\u0644\u0645\u0648\u0638\u0641": employeeName(r.employeeId),
-          "\u0627\u0644\u0642\u0633\u0645": employeeById(r.employeeId)?.department || "",
+          "\u0627\u0644\u0642\u0633\u0645": r.department || employeeById(r.employeeId)?.department || "",
+          "\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631": r.directManager || "",
+          "\u0628\u0631\u064A\u062F \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631": r.directManagerEmail || "",
+          "\u0645\u062F\u064A\u0631 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0633\u0645": r.departmentManager || "",
           "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632": r.deviceType,
           "\u0627\u0644\u0645\u0627\u0631\u0643\u0629": r.brand,
           "\u0627\u0644\u0645\u0648\u062F\u064A\u0644": r.model,
           "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A": r.serial,
-          "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0633\u0644\u064A\u0645": r.assignDate,
-          "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0627\u0633\u062A\u0631\u062C\u0627\u0639": r.returnDate || "",
+          "\u0631\u0642\u0645 \u0627\u0644\u0623\u0635\u0644 \u0627\u0644\u062B\u0627\u0628\u062A": r.assetTag || "",
+          "\u0646\u0648\u0639 \u0627\u0644\u0639\u0647\u062F\u0629": r.custodyType || "",
+          "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0633\u0644\u064A\u0645": formatDMY(r.assignDate),
+          "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0625\u0631\u062C\u0627\u0639 \u0627\u0644\u0645\u062A\u0648\u0642\u0639": r.dueDate ? formatDMY(r.dueDate) : "",
+          "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0627\u0633\u062A\u0631\u062C\u0627\u0639 \u0627\u0644\u0641\u0639\u0644\u064A": r.returnDate ? formatDMY(r.returnDate) : "",
           "\u0627\u0644\u062D\u0627\u0644\u0629": r.status,
+          "\u0627\u0644\u0645\u0633\u0624\u0648\u0644 \u0639\u0646 \u0627\u0644\u062A\u0633\u0644\u064A\u0645": r.handedBy || "",
           "\u0645\u0644\u0627\u062D\u0638\u0627\u062A": r.notes
         }));
         const ws = utils.json_to_sheet(rows);
@@ -34149,6 +34366,21 @@
     if (!loaded) {
       return /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-h-screen flex items-center justify-center bg-[#F6F7F9]", dir: "rtl" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-col items-center gap-3 text-[#6B7280]" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "w-8 h-8 border-2 border-[#0C8599] border-t-transparent rounded-full animate-spin" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-sm" }, "\u062C\u0627\u0631\u064D \u062A\u062D\u0645\u064A\u0644 \u0627\u0644\u0646\u0638\u0627\u0645\u2026")));
     }
+    if (confirmHash) {
+      const targetRecord = records.find((r) => r.id === confirmHash);
+      if (!targetRecord) {
+        return /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-h-screen flex items-center justify-center bg-[#F6F7F9] p-6", dir: "rtl" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-center max-w-sm" }, /* @__PURE__ */ import_react4.default.createElement(CircleAlert, { size: 28, className: "text-[#B42318] mx-auto mb-3" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-base font-bold text-[#1A2027] mb-1" }, "\u0627\u0644\u0631\u0627\u0628\u0637 \u063A\u064A\u0631 \u0635\u0627\u0644\u062D"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm text-[#6B7280]" }, "\u0647\u0630\u0627 \u0627\u0644\u0631\u0627\u0628\u0637 \u0644\u0627 \u064A\u0634\u064A\u0631 \u0625\u0644\u0649 \u0623\u064A \u0639\u0647\u062F\u0629 \u0645\u0648\u062C\u0648\u062F\u0629. \u062A\u0623\u0643\u062F \u0645\u0646 \u0646\u0633\u062E \u0627\u0644\u0631\u0627\u0628\u0637 \u0643\u0627\u0645\u0644\u064B\u0627\u060C \u0623\u0648 \u062A\u0648\u0627\u0635\u0644 \u0645\u0639 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A.")));
+      }
+      return /* @__PURE__ */ import_react4.default.createElement(
+        ConfirmReceiptScreen,
+        {
+          record: targetRecord,
+          employee: employeeById(targetRecord.employeeId),
+          settings,
+          onConfirm: () => confirmReceiptRemotely(targetRecord.id)
+        }
+      );
+    }
     if (!currentUser) {
       return /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-h-screen overflow-y-auto flex items-center justify-center bg-[#F6F7F9] p-6 py-10", dir: "rtl" }, /* @__PURE__ */ import_react4.default.createElement("style", null, `
           @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
@@ -34167,6 +34399,118 @@
     const viewRecord = viewRecordId ? records.find((r) => r.id === viewRecordId) : null;
     const historyEmployee = historyEmployeeId ? employeeById(historyEmployeeId) : null;
     const labelAsset = labelAssetId ? assets.find((a) => a.id === labelAssetId) : null;
+    const shareRecord = shareRecordId ? records.find((r) => r.id === shareRecordId) : null;
+    if (shareRecord) {
+      const emp = employeeById(shareRecord.employeeId);
+      const confirmLink = `${window.location.origin}${window.location.pathname}#confirm=${shareRecord.id}`;
+      const alreadyConfirmed = shareRecord.status !== STATUS.PENDING;
+      const mailBody = encodeURIComponent(
+        `\u0639\u0632\u064A\u0632\u064A \u0627\u0644\u0645\u0648\u0638\u0641\u060C
+
+\u062A\u0645 \u0625\u0633\u0646\u0627\u062F \u0639\u0647\u062F\u0629 \u0645\u0646 \u0642\u0633\u0645 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0628\u0646\u0627\u0621\u064B \u0639\u0644\u0649 \u0637\u0644\u0628\u0643\u0645. \u064A\u0631\u062C\u0649 \u0627\u0644\u0627\u0637\u0644\u0627\u0639 \u0639\u0644\u0649 \u0627\u0644\u0639\u0647\u062F\u0629 \u0648\u0642\u0628\u0648\u0644 \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645 \u0628\u0639\u062F \u0627\u0633\u062A\u0644\u0627\u0645 \u0627\u0644\u0623\u062C\u0647\u0632\u0629 \u0648\u062A\u0633\u0644\u064A\u0645\u0647\u0627 \u0625\u0644\u064A\u0643\u0645 \u0645\u0646 \u0642\u0628\u0644 \u0645\u0647\u0646\u062F\u0633 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A\u060C \u0639\u0628\u0631 \u0627\u0644\u0631\u0627\u0628\u0637 \u0627\u0644\u062A\u0627\u0644\u064A:
+${confirmLink}
+
+\u0631\u0642\u0645 \u0627\u0644\u0639\u0647\u062F\u0629: ${shareRecord.code}
+
+\u0634\u0643\u0631\u064B\u0627 \u0644\u0643\u0645.`
+      );
+      const mailSubject = encodeURIComponent("\u0625\u0633\u0646\u0627\u062F \u0639\u0647\u062F\u0629 \u0645\u0646 \u0642\u0633\u0645 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A");
+      const mailtoHref = `mailto:${emp?.email || ""}?subject=${mailSubject}&body=${mailBody}`;
+      const emailjsReady = !!(settings.emailjsServiceId && settings.emailjsTemplateId && settings.emailjsPublicKey);
+      const copyLink = async () => {
+        try {
+          await navigator.clipboard.writeText(confirmLink);
+          showToast("\u062A\u0645 \u0646\u0633\u062E \u0627\u0644\u0631\u0627\u0628\u0637");
+        } catch {
+          showToast("\u062A\u0639\u0630\u0651\u0631 \u0646\u0633\u062E \u0627\u0644\u0631\u0627\u0628\u0637\u060C \u0627\u0646\u0633\u062E\u0647 \u064A\u062F\u0648\u064A\u064B\u0627");
+        }
+      };
+      const sendCustodyEmail = async () => {
+        if (!emp?.email) {
+          showToast("\u0623\u0636\u0641 \u0628\u0631\u064A\u062F \u0627\u0644\u0645\u0648\u0638\u0641 \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A \u0623\u0648\u0644\u064B\u0627 \u0645\u0646 \u0635\u0641\u062D\u0629 \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646");
+          return;
+        }
+        if (!emailjsReady) {
+          showToast("\u0623\u0643\u0645\u0644 \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0645\u0646 \u0635\u0641\u062D\u0629 \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0623\u0648\u0644\u064B\u0627");
+          return;
+        }
+        if (!window.emailjs) {
+          showToast("\u062E\u062F\u0645\u0629 \u0627\u0644\u0625\u0631\u0633\u0627\u0644 \u063A\u064A\u0631 \u0645\u062A\u0627\u062D\u0629 \u0627\u0644\u0622\u0646 \u2014 \u062A\u0639\u0645\u0644 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0628\u0639\u062F \u0627\u0633\u062A\u0636\u0627\u0641\u0629 \u0627\u0644\u0646\u0638\u0627\u0645 \u0639\u0644\u0649 \u0627\u0644\u0648\u064A\u0628");
+          return;
+        }
+        setEmailSendStatus("sending");
+        try {
+          await window.emailjs.send(
+            settings.emailjsServiceId,
+            settings.emailjsTemplateId,
+            {
+              to_email: emp.email,
+              to_name: emp.name,
+              subject: "\u0625\u0633\u0646\u0627\u062F \u0639\u0647\u062F\u0629 \u0645\u0646 \u0642\u0633\u0645 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A",
+              message: "\u0639\u0632\u064A\u0632\u064A \u0627\u0644\u0645\u0648\u0638\u0641\u060C \u062A\u0645 \u0625\u0633\u0646\u0627\u062F \u0639\u0647\u062F\u0629 \u0645\u0646 \u0642\u0633\u0645 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A \u0628\u0646\u0627\u0621\u064B \u0639\u0644\u0649 \u0637\u0644\u0628\u0643\u0645. \u064A\u0631\u062C\u0649 \u0627\u0644\u0627\u0637\u0644\u0627\u0639 \u0639\u0644\u0649 \u0627\u0644\u0639\u0647\u062F\u0629 \u0648\u0642\u0628\u0648\u0644 \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645 \u0628\u0639\u062F \u0627\u0633\u062A\u0644\u0627\u0645 \u0627\u0644\u0623\u062C\u0647\u0632\u0629 \u0648\u062A\u0633\u0644\u064A\u0645\u0647\u0627 \u0625\u0644\u064A\u0643\u0645 \u0645\u0646 \u0642\u0628\u0644 \u0645\u0647\u0646\u062F\u0633 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A.",
+              custody_code: shareRecord.code,
+              device_type: shareRecord.deviceType,
+              serial: shareRecord.serial,
+              confirm_link: confirmLink,
+              system_name: settings.name
+            },
+            settings.emailjsPublicKey
+          );
+          setEmailSendStatus("sent");
+          showToast("\u062A\u0645 \u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0625\u064A\u0645\u064A\u0644 \u0644\u0644\u0645\u0648\u0638\u0641 \u0628\u0646\u062C\u0627\u062D");
+        } catch (e) {
+          console.error(e);
+          setEmailSendStatus("error");
+          showToast("\u062A\u0639\u0630\u0651\u0631 \u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0625\u064A\u0645\u064A\u0644 \u2014 \u062A\u062D\u0642\u0642 \u0645\u0646 \u0625\u0639\u062F\u0627\u062F\u0627\u062A EmailJS");
+        }
+      };
+      return /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-h-screen bg-[#F6F7F9]", dir: "rtl" }, /* @__PURE__ */ import_react4.default.createElement("style", null, `
+          @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+          * { font-family: 'IBM Plex Sans Arabic', sans-serif; }
+          .font-mono { font-family: 'IBM Plex Mono', monospace; }
+        `), /* @__PURE__ */ import_react4.default.createElement("div", { className: "max-w-lg mx-auto p-4 sm:p-8" }, /* @__PURE__ */ import_react4.default.createElement(Toast, { text: toast }), /* @__PURE__ */ import_react4.default.createElement(
+        "button",
+        {
+          onClick: () => setShareRecordId(null),
+          className: "flex items-center gap-1.5 text-sm text-[#6B7280] hover:text-[#0C8599] mb-5 transition-colors"
+        },
+        /* @__PURE__ */ import_react4.default.createElement(ArrowRight, { size: 15 }),
+        " \u0631\u062C\u0648\u0639"
+      ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-white rounded-xl border border-[#E3E6EA] p-5 sm:p-7" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between mb-1" }, /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-lg font-bold text-[#1A2027]" }, "\u0645\u0634\u0627\u0631\u0643\u0629 \u0631\u0627\u0628\u0637 \u062A\u0623\u0643\u064A\u062F \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645"), /* @__PURE__ */ import_react4.default.createElement(TagBadge, { code: shareRecord.code, small: true })), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#6B7280] mb-5" }, emp?.name || "\u2014", " \u2014 ", shareRecord.deviceType, " ", shareRecord.brand), alreadyConfirmed ? /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#DFF3F2] rounded-lg p-4 flex items-start gap-3" }, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 18, className: "text-[#0B6E77] flex-shrink-0 mt-0.5" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm text-[#0B6E77]" }, "\u062A\u0645 \u062A\u0623\u0643\u064A\u062F \u0627\u0633\u062A\u0644\u0627\u0645 \u0647\u0630\u0647 \u0627\u0644\u0639\u0647\u062F\u0629 \u0628\u0627\u0644\u0641\u0639\u0644. ", confirmationLine(shareRecord))) : /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(
+        "button",
+        {
+          onClick: sendCustodyEmail,
+          disabled: emailSendStatus === "sending" || emailSendStatus === "sent",
+          className: `w-full flex items-center justify-center gap-2 text-sm px-4 py-2.5 rounded-lg transition-colors mb-2 ${emailSendStatus === "sent" ? "bg-[#E4F6E9] text-[#22753A]" : "bg-[#0C8599] hover:bg-[#086674] disabled:opacity-60 text-white"}`
+        },
+        emailSendStatus === "sending" ? /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, "\u062C\u0627\u0631\u064D \u0627\u0644\u0625\u0631\u0633\u0627\u0644\u2026") : emailSendStatus === "sent" ? /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 15 }), " \u062A\u0645 \u0627\u0644\u0625\u0631\u0633\u0627\u0644 \u0628\u0646\u062C\u0627\u062D") : /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(Send, { size: 15 }), " \u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0639\u0647\u062F\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0628\u0627\u0644\u0625\u064A\u0645\u064A\u0644")
+      ), !emailjsReady && /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#9CA3AF] text-center mb-3" }, "\u0627\u0644\u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u064A\u062D\u062A\u0627\u062C \u0625\u0639\u062F\u0627\u062F EmailJS \u0645\u0646 \u0635\u0641\u062D\u0629 \u0627\u0644\u0625\u0639\u062F\u0627\u062F\u0627\u062A (\u0645\u0631\u0629 \u0648\u0627\u062D\u062F\u0629 \u0641\u0642\u0637)."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2 my-3" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex-1 h-px bg-[#E3E6EA]" }), /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-[11px] text-[#9CA3AF]" }, "\u0623\u0648 \u064A\u062F\u0648\u064A\u064B\u0627"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex-1 h-px bg-[#E3E6EA]" })), /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-xs text-[#6B7280] mb-1.5 block" }, "\u0631\u0627\u0628\u0637 \u062A\u0623\u0643\u064A\u062F \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2 mb-4" }, /* @__PURE__ */ import_react4.default.createElement(
+        "input",
+        {
+          readOnly: true,
+          value: confirmLink,
+          dir: "ltr",
+          onFocus: (e) => e.target.select(),
+          className: "flex-1 text-xs font-mono border border-[#E3E6EA] rounded-lg px-3 py-2.5 bg-[#F6F7F9] text-[#374151]"
+        }
+      ), /* @__PURE__ */ import_react4.default.createElement(
+        "button",
+        {
+          onClick: copyLink,
+          className: "flex items-center gap-1.5 bg-[#1A2027] hover:bg-black text-white text-sm px-3 py-2.5 rounded-lg transition-colors flex-shrink-0"
+        },
+        /* @__PURE__ */ import_react4.default.createElement(Copy, { size: 14 }),
+        " \u0646\u0633\u062E"
+      )), /* @__PURE__ */ import_react4.default.createElement(
+        "a",
+        {
+          href: mailtoHref,
+          className: "w-full flex items-center justify-center gap-2 border border-[#E3E6EA] bg-white hover:bg-[#F6F7F9] text-[#374151] text-sm px-4 py-2.5 rounded-lg transition-colors mb-2"
+        },
+        /* @__PURE__ */ import_react4.default.createElement(Send, { size: 15 }),
+        " \u0641\u062A\u062D \u0645\u0633\u0648\u062F\u0629 \u0628\u0631\u064A\u062F \u062C\u0627\u0647\u0632\u0629 \u0644\u0644\u0625\u0631\u0633\u0627\u0644"
+      ), !emp?.email && /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#D89614] text-center mb-3" }, "\u0644\u0627 \u064A\u0648\u062C\u062F \u0628\u0631\u064A\u062F \u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A \u0645\u0633\u062C\u0651\u0644 \u0644\u0647\u0630\u0627 \u0627\u0644\u0645\u0648\u0638\u0641 \u2014 \u0623\u0636\u0641\u0647 \u0645\u0646 \u0635\u0641\u062D\u0629 \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646 \u0644\u064A\u062A\u0645 \u062A\u0639\u0628\u0626\u062A\u0647 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627."), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F6F7F9] rounded-lg p-3.5 mt-3 flex items-start gap-2.5" }, /* @__PURE__ */ import_react4.default.createElement(CircleAlert, { size: 14, className: "text-[#D89614] flex-shrink-0 mt-0.5" }), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#6B7280] leading-relaxed" }, "\u0627\u0644\u0625\u0631\u0633\u0627\u0644 (\u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0623\u0648 \u0627\u0644\u064A\u062F\u0648\u064A) \u0648\u0627\u0644\u0631\u0627\u0628\u0637 \u0646\u0641\u0633\u0647 \u064A\u0639\u0645\u0644\u0648\u0646 \u0641\u0639\u0644\u064A\u064B\u0627 \u0641\u0642\u0637 \u0628\u0639\u062F \u0627\u0633\u062A\u0636\u0627\u0641\u0629 \u0647\u0630\u0627 \u0627\u0644\u0646\u0638\u0627\u0645 \u0639\u0644\u0649 \u0639\u0646\u0648\u0627\u0646 \u0648\u064A\u0628 \u062D\u0642\u064A\u0642\u064A \u064A\u0635\u0644 \u0644\u0647 \u0645\u062A\u0635\u0641\u062D \u0627\u0644\u0645\u0648\u0638\u0641 \u2014 \u0648\u0644\u064A\u0633 \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0645\u0639\u0627\u064A\u0646\u0629 \u062F\u0627\u062E\u0644 \u0645\u062D\u0627\u062F\u062B\u0629 \u0643\u0644\u0648\u062F \u0641\u0642\u0637."))))));
+    }
     if (labelAsset) {
       return /* @__PURE__ */ import_react4.default.createElement("div", { className: "min-h-screen bg-[#F6F7F9] p-4 sm:p-6", dir: "rtl" }, /* @__PURE__ */ import_react4.default.createElement("style", null, `
           @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
@@ -34219,6 +34563,7 @@
           onReturn: markReturned,
           onReopen: reopenRecord,
           onDelete: deleteRecord,
+          onShare: setShareRecordId,
           canEdit,
           canDelete: canManage
         }
@@ -34251,7 +34596,7 @@
         },
         /* @__PURE__ */ import_react4.default.createElement(Printer, { size: 15 }),
         " \u0637\u0628\u0627\u0639\u0629 / \u062D\u0641\u0638 PDF"
-      )), /* @__PURE__ */ import_react4.default.createElement("div", { className: "print-card bg-white rounded-xl border border-[#E3E6EA] shadow-sm p-5 sm:p-8" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-wrap items-start justify-between gap-3 border-b border-[#E3E6EA] pb-5 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-3" }, /* @__PURE__ */ import_react4.default.createElement(BrandMark, { logo: settings.logo, size: 38, radius: 9 }), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold tracking-widest mb-1" }, settings.name), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#1A2027]" }, "\u0646\u0645\u0648\u0630\u062C \u0627\u0633\u062A\u0644\u0627\u0645 \u0639\u0647\u062F\u0629 \u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u0629"))), /* @__PURE__ */ import_react4.default.createElement(TagBadge, { code: viewRecord.code })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0633\u0645 \u0627\u0644\u0645\u0648\u0638\u0641"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.name || "\u2014")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0648\u0638\u064A\u0641\u064A"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.empNo || "\u2014")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0644\u0642\u0633\u0645"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.department || "\u2014")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0644\u0645\u0633\u0645\u0649 \u0627\u0644\u0648\u0638\u064A\u0641\u064A"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.jobTitle || "\u2014"))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F6F7F9] rounded-lg p-4 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold mb-3" }, "\u062A\u0641\u0627\u0635\u064A\u0644 \u0627\u0644\u062C\u0647\u0627\u0632 / \u0627\u0644\u0639\u0647\u062F\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3" }, /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632", value: viewRecord.deviceType }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0627\u0631\u0643\u0629", value: viewRecord.brand }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0648\u062F\u064A\u0644", value: viewRecord.model }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A", value: viewRecord.serial, mono: true }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0644\u062D\u0642\u0627\u062A", value: viewRecord.accessories || "\u0644\u0627 \u064A\u0648\u062C\u062F" }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0646\u0648\u0639 \u0627\u0644\u0639\u0647\u062F\u0629", value: viewRecord.custodyType }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: formatDMY(viewRecord.assignDate) }), viewRecord.custodyType === CUSTODY_TYPE.TEMPORARY && /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0625\u0631\u062C\u0627\u0639 \u0627\u0644\u0645\u062A\u0648\u0642\u0639", value: viewRecord.dueDate ? formatDMY(viewRecord.dueDate) : "\u063A\u064A\u0631 \u0645\u062D\u062F\u062F" }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0633\u0624\u0648\u0644 \u0639\u0646 \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: viewRecord.handedBy }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0631\u0642\u0645 \u0627\u0644\u0623\u0635\u0644 \u0627\u0644\u062B\u0627\u0628\u062A", value: viewRecord.assetTag, mono: true })), viewRecord.notes && /* @__PURE__ */ import_react4.default.createElement("div", { className: "mt-3 pt-3 border-t border-[#E3E6EA]" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0645\u0644\u0627\u062D\u0638\u0627\u062A"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm text-[#1A2027]" }, viewRecord.notes))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F6F7F9] rounded-lg p-4 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold mb-3" }, "\u0627\u0644\u0633\u0644\u0633\u0644\u0629 \u0627\u0644\u0625\u062F\u0627\u0631\u064A\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3" }, /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0642\u0633\u0645", value: viewRecord.department }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", value: viewRecord.directManager }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0628\u0631\u064A\u062F \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", value: viewRecord.directManagerEmail }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0645\u062F\u064A\u0631 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0633\u0645", value: viewRecord.departmentManager }))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ import_react4.default.createElement(StatusBadge, { status: viewRecord.status }), isOverdue(viewRecord) && /* @__PURE__ */ import_react4.default.createElement(OverdueBadge, null)), viewRecord.returnDate && /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs text-[#6B7280]" }, "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0627\u0633\u062A\u0631\u062C\u0627\u0639: ", formatDMY(viewRecord.returnDate))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] whitespace-pre-line leading-relaxed mb-5" }, ACKNOWLEDGMENT_TEXT), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-3 gap-6" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "h-14 border-b border-dashed border-[#C7CDD4]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mt-1" }, "\u062A\u0648\u0642\u064A\u0639 \u0627\u0644\u0645\u0648\u0638\u0641")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "h-14 border-b border-dashed border-[#C7CDD4]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mt-1" }, "\u062A\u0648\u0642\u064A\u0639 \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "h-14 border-b border-dashed border-[#C7CDD4]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mt-1" }, "\u062A\u0648\u0642\u064A\u0639 \u0645\u062F\u064A\u0631 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0633\u0645")))))));
+      )), /* @__PURE__ */ import_react4.default.createElement("div", { className: "print-card bg-white rounded-xl border border-[#E3E6EA] shadow-sm p-5 sm:p-8" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-wrap items-start justify-between gap-3 border-b border-[#E3E6EA] pb-5 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-3" }, /* @__PURE__ */ import_react4.default.createElement(BrandMark, { logo: settings.logo, size: 38, radius: 9 }), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold tracking-widest mb-1" }, settings.name), /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-xl font-bold text-[#1A2027]" }, "\u0646\u0645\u0648\u0630\u062C \u0627\u0633\u062A\u0644\u0627\u0645 \u0639\u0647\u062F\u0629 \u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u0629"))), /* @__PURE__ */ import_react4.default.createElement(TagBadge, { code: viewRecord.code })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0633\u0645 \u0627\u0644\u0645\u0648\u0638\u0641"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.name || "\u2014")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u0648\u0638\u064A\u0641\u064A"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.empNo || "\u2014")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0644\u0642\u0633\u0645"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.department || "\u2014")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0627\u0644\u0645\u0633\u0645\u0649 \u0627\u0644\u0648\u0638\u064A\u0641\u064A"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-medium text-[#1A2027]" }, emp?.jobTitle || "\u2014"))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F6F7F9] rounded-lg p-4 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold mb-3" }, "\u062A\u0641\u0627\u0635\u064A\u0644 \u0627\u0644\u062C\u0647\u0627\u0632 / \u0627\u0644\u0639\u0647\u062F\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3" }, /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632", value: viewRecord.deviceType }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0627\u0631\u0643\u0629", value: viewRecord.brand }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0648\u062F\u064A\u0644", value: viewRecord.model }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A", value: viewRecord.serial, mono: true }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0644\u062D\u0642\u0627\u062A", value: viewRecord.accessories || "\u0644\u0627 \u064A\u0648\u062C\u062F" }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0646\u0648\u0639 \u0627\u0644\u0639\u0647\u062F\u0629", value: viewRecord.custodyType }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: formatDMY(viewRecord.assignDate) }), viewRecord.custodyType === CUSTODY_TYPE.TEMPORARY && /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0625\u0631\u062C\u0627\u0639 \u0627\u0644\u0645\u062A\u0648\u0642\u0639", value: viewRecord.dueDate ? formatDMY(viewRecord.dueDate) : "\u063A\u064A\u0631 \u0645\u062D\u062F\u062F" }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u0633\u0624\u0648\u0644 \u0639\u0646 \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: viewRecord.handedBy }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0631\u0642\u0645 \u0627\u0644\u0623\u0635\u0644 \u0627\u0644\u062B\u0627\u0628\u062A", value: viewRecord.assetTag, mono: true })), viewRecord.notes && /* @__PURE__ */ import_react4.default.createElement("div", { className: "mt-3 pt-3 border-t border-[#E3E6EA]" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-1" }, "\u0645\u0644\u0627\u062D\u0638\u0627\u062A"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm text-[#1A2027]" }, viewRecord.notes))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#F6F7F9] rounded-lg p-4 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold mb-3" }, "\u0627\u0644\u0633\u0644\u0633\u0644\u0629 \u0627\u0644\u0625\u062F\u0627\u0631\u064A\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3" }, /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0642\u0633\u0645", value: viewRecord.department }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", value: viewRecord.directManager }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0628\u0631\u064A\u062F \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", value: viewRecord.directManagerEmail }), /* @__PURE__ */ import_react4.default.createElement(Field, { label: "\u0645\u062F\u064A\u0631 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0633\u0645", value: viewRecord.departmentManager }))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-between mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ import_react4.default.createElement(StatusBadge, { status: statusDisplay(viewRecord) }), isOverdue(viewRecord) && /* @__PURE__ */ import_react4.default.createElement(OverdueBadge, null), isDueSoon(viewRecord) && /* @__PURE__ */ import_react4.default.createElement(DueSoonBadge, { days: daysUntilDue(viewRecord) })), viewRecord.returnDate && /* @__PURE__ */ import_react4.default.createElement("span", { className: "text-xs text-[#6B7280]" }, "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0627\u0633\u062A\u0631\u062C\u0627\u0639: ", formatDMY(viewRecord.returnDate))), confirmationLine(viewRecord) && /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[11px] text-[#0B6E77] -mt-4 mb-6" }, confirmationLine(viewRecord)), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] whitespace-pre-line leading-relaxed mb-5" }, ACKNOWLEDGMENT_TEXT), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-3 gap-6" }, /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "h-14 border-b border-dashed border-[#C7CDD4]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mt-1" }, "\u062A\u0648\u0642\u064A\u0639 \u0627\u0644\u0645\u0648\u0638\u0641")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "h-14 border-b border-dashed border-[#C7CDD4]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mt-1" }, "\u062A\u0648\u0642\u064A\u0639 \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("div", { className: "h-14 border-b border-dashed border-[#C7CDD4]" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mt-1" }, "\u062A\u0648\u0642\u064A\u0639 \u0645\u062F\u064A\u0631 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0633\u0645")))))));
     }
     const navItem = (key, label, Icon2) => /* @__PURE__ */ import_react4.default.createElement(
       "button",
@@ -34296,7 +34641,53 @@
         /* @__PURE__ */ import_react4.default.createElement(LogOut, { size: 12 }),
         " \u062A\u0628\u062F\u064A\u0644 \u0627\u0644\u0645\u0633\u062A\u062E\u062F\u0645"
       ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-[10px] text-[#5B6472]" }, saving ? "\u062C\u0627\u0631\u064D \u0627\u0644\u062D\u0641\u0638\u2026" : "\u062A\u0645 \u0627\u0644\u062D\u0641\u0638 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627"))
-    ), /* @__PURE__ */ import_react4.default.createElement("main", { className: "flex-1 p-4 sm:p-6 lg:p-8 max-w-6xl w-full min-w-0" }, /* @__PURE__ */ import_react4.default.createElement(Toast, { text: toast }), page === "dashboard" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-2xl font-bold text-[#1A2027] mb-1" }, "\u0646\u0638\u0631\u0629 \u0639\u0627\u0645\u0629"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#6B7280] mb-7" }, "\u0645\u0644\u062E\u0635 \u062D\u0627\u0644\u0629 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u0629 \u0641\u064A \u0627\u0644\u0642\u0633\u0645"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4 mb-8" }, /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0625\u062C\u0645\u0627\u0644\u064A \u0627\u0644\u0639\u0647\u062F", value: records.length, color: "#0C8599" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u0647\u062F \u0646\u0634\u0637\u0629", value: activeCount, color: "#D89614" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u0647\u062F \u0645\u062A\u0623\u062E\u0631\u0629", value: overdueCount, color: "#B42318" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u0647\u062F \u0645\u0631\u062C\u0639\u0629", value: returnedCount, color: "#2F9E44" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u062F\u062F \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646", value: employees.length, color: "#6B7280" })), canEdit && /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-wrap items-center gap-3 mb-6" }, /* @__PURE__ */ import_react4.default.createElement(
+    ), /* @__PURE__ */ import_react4.default.createElement("main", { className: "flex-1 p-4 sm:p-6 lg:p-8 max-w-6xl w-full min-w-0" }, /* @__PURE__ */ import_react4.default.createElement(Toast, { text: toast }), page === "dashboard" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-2xl font-bold text-[#1A2027] mb-1" }, "\u0646\u0638\u0631\u0629 \u0639\u0627\u0645\u0629"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#6B7280] mb-5" }, "\u0645\u0644\u062E\u0635 \u062D\u0627\u0644\u0629 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0625\u0644\u0643\u062A\u0631\u0648\u0646\u064A\u0629 \u0641\u064A \u0627\u0644\u0642\u0633\u0645"), overdueRecords.length > 0 && /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#FBE3E1] border border-[#F5B8B0] rounded-xl p-4 mb-4" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ import_react4.default.createElement(CircleAlert, { size: 18, className: "text-[#B42318] flex-shrink-0 mt-0.5" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex-1 min-w-0" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#B42318] mb-2" }, overdueRecords.length, " \u0639\u0647\u062F\u0629 \u0645\u0624\u0642\u062A\u0629 \u0645\u062A\u0623\u062E\u0631\u0629 \u0639\u0646 \u0645\u0648\u0639\u062F \u0627\u0644\u0625\u0631\u062C\u0627\u0639 \u2014 \u062A\u062D\u062A\u0627\u062C \u0645\u062A\u0627\u0628\u0639\u0629"), /* @__PURE__ */ import_react4.default.createElement("ul", { className: "space-y-1.5" }, overdueRecords.slice(0, 5).map((r) => /* @__PURE__ */ import_react4.default.createElement("li", { key: r.id, className: "flex items-center justify-between gap-3 text-xs" }, /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        onClick: () => setViewRecordId(r.id),
+        className: "text-[#7A1F14] hover:underline text-right truncate min-w-0"
+      },
+      employeeName(r.employeeId),
+      " \u2014 ",
+      r.deviceType,
+      " ",
+      r.brand
+    ), /* @__PURE__ */ import_react4.default.createElement("span", { className: "flex-shrink-0 text-[#B42318] font-medium whitespace-nowrap" }, daysOverdueLabelAr(Math.abs(daysUntilDue(r))))))), /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        onClick: () => {
+          setStatusFilter("\u0645\u062A\u0623\u062E\u0631\u0629");
+          setPage("records");
+        },
+        className: "text-xs text-[#B42318] font-medium underline mt-2.5"
+      },
+      "\u0639\u0631\u0636 \u0643\u0644 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0645\u062A\u0623\u062E\u0631\u0629 (",
+      overdueRecords.length,
+      ")"
+    )))), dueSoonRecords.length > 0 && /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-[#FDF1DC] border border-[#F0DBA6] rounded-xl p-4 mb-4" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-start gap-3" }, /* @__PURE__ */ import_react4.default.createElement(Clock, { size: 18, className: "text-[#92660E] flex-shrink-0 mt-0.5" }), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex-1 min-w-0" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-sm font-semibold text-[#92660E] mb-2" }, dueSoonRecords.length, " \u0639\u0647\u062F\u0629 \u0645\u0624\u0642\u062A\u0629 \u062A\u0642\u062A\u0631\u0628 \u0645\u0646 \u0645\u0648\u0639\u062F \u0627\u0644\u0625\u0631\u062C\u0627\u0639 \u062E\u0644\u0627\u0644 \u0667 \u0623\u064A\u0627\u0645"), /* @__PURE__ */ import_react4.default.createElement("ul", { className: "space-y-1.5" }, dueSoonRecords.slice(0, 5).map((r) => /* @__PURE__ */ import_react4.default.createElement("li", { key: r.id, className: "flex items-center justify-between gap-3 text-xs" }, /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        onClick: () => setViewRecordId(r.id),
+        className: "text-[#6B4A0A] hover:underline text-right truncate min-w-0"
+      },
+      employeeName(r.employeeId),
+      " \u2014 ",
+      r.deviceType,
+      " ",
+      r.brand
+    ), /* @__PURE__ */ import_react4.default.createElement("span", { className: "flex-shrink-0 text-[#92660E] font-medium whitespace-nowrap" }, daysLabelAr(daysUntilDue(r)))))), /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        onClick: () => {
+          setStatusFilter("\u062A\u0633\u062A\u062D\u0642 \u0642\u0631\u064A\u0628\u064B\u0627");
+          setPage("records");
+        },
+        className: "text-xs text-[#92660E] font-medium underline mt-2.5"
+      },
+      "\u0639\u0631\u0636 \u0627\u0644\u0643\u0644 (",
+      dueSoonRecords.length,
+      ")"
+    )))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4 mb-8" }, /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0625\u062C\u0645\u0627\u0644\u064A \u0627\u0644\u0639\u0647\u062F", value: records.length, color: "#0C8599" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u0647\u062F \u0646\u0634\u0637\u0629", value: activeCount, color: "#D89614" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u0647\u062F \u0645\u062A\u0623\u062E\u0631\u0629", value: overdueCount, color: "#B42318" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u062A\u0633\u062A\u062D\u0642 \u0642\u0631\u064A\u0628\u064B\u0627", value: dueSoonCount, color: "#92660E" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u0647\u062F \u0645\u0631\u062C\u0639\u0629", value: returnedCount, color: "#2F9E44" }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0639\u062F\u062F \u0627\u0644\u0645\u0648\u0638\u0641\u064A\u0646", value: employees.length, color: "#6B7280" })), canEdit && /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-wrap items-center gap-3 mb-6" }, /* @__PURE__ */ import_react4.default.createElement(
       "button",
       {
         onClick: () => setPage("newRecord"),
@@ -34321,6 +34712,7 @@
         onReturn: markReturned,
         onReopen: reopenRecord,
         onDelete: deleteRecord,
+        onShare: setShareRecordId,
         canEdit,
         canDelete: canManage,
         compact: true
@@ -34372,9 +34764,9 @@
         onSubmit: addAsset,
         className: "bg-white rounded-xl border border-[#E3E6EA] p-5 mb-6 grid grid-cols-1 sm:grid-cols-2 gap-4"
       },
-      /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632 *", value: assetForm.deviceType, onChange: (v) => setAssetForm({ ...assetForm, deviceType: v }), placeholder: "\u0644\u0627\u0628\u062A\u0648\u0628\u060C \u0634\u0627\u0634\u0629\u060C \u0637\u0627\u0628\u0639\u0629\u2026" }),
+      /* @__PURE__ */ import_react4.default.createElement(DeviceTypeSelect, { label: "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632", required: true, value: assetForm.deviceType, onChange: (v) => setAssetForm({ ...assetForm, deviceType: v }) }),
       /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A *", value: assetForm.serial, onChange: (v) => setAssetForm({ ...assetForm, serial: v }), mono: true }),
-      /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0627\u0631\u0643\u0629", value: assetForm.brand, onChange: (v) => setAssetForm({ ...assetForm, brand: v }) }),
+      /* @__PURE__ */ import_react4.default.createElement(BrandSelect, { label: "\u0627\u0644\u0645\u0627\u0631\u0643\u0629", value: assetForm.brand, onChange: (v) => setAssetForm({ ...assetForm, brand: v }) }),
       /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0648\u062F\u064A\u0644", value: assetForm.model, onChange: (v) => setAssetForm({ ...assetForm, model: v }) }),
       /* @__PURE__ */ import_react4.default.createElement(DateInput, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0634\u0631\u0627\u0621", value: assetForm.purchaseDate, onChange: (v) => setAssetForm({ ...assetForm, purchaseDate: v }) }),
       /* @__PURE__ */ import_react4.default.createElement(DateInput, { label: "\u0646\u0647\u0627\u064A\u0629 \u0627\u0644\u0636\u0645\u0627\u0646", value: assetForm.warrantyEnd, onChange: (v) => setAssetForm({ ...assetForm, warrantyEnd: v }) }),
@@ -34425,6 +34817,9 @@
       },
       /* @__PURE__ */ import_react4.default.createElement("option", null, "\u0627\u0644\u0643\u0644"),
       /* @__PURE__ */ import_react4.default.createElement("option", null, STATUS.ACTIVE),
+      /* @__PURE__ */ import_react4.default.createElement("option", null, STATUS.PENDING),
+      /* @__PURE__ */ import_react4.default.createElement("option", null, "\u0645\u062A\u0623\u062E\u0631\u0629"),
+      /* @__PURE__ */ import_react4.default.createElement("option", null, "\u062A\u0633\u062A\u062D\u0642 \u0642\u0631\u064A\u0628\u064B\u0627"),
       /* @__PURE__ */ import_react4.default.createElement("option", null, STATUS.RETURNED)
     ), /* @__PURE__ */ import_react4.default.createElement(
       "button",
@@ -34444,6 +34839,7 @@
         onReturn: markReturned,
         onReopen: reopenRecord,
         onDelete: deleteRecord,
+        onShare: setShareRecordId,
         canEdit,
         canDelete: canManage
       }
@@ -34486,7 +34882,7 @@
       },
       /* @__PURE__ */ import_react4.default.createElement("option", { value: "" }, "\u2014 \u0625\u062F\u062E\u0627\u0644 \u064A\u062F\u0648\u064A \u0628\u062F\u0648\u0646 \u0631\u0628\u0637 \u0628\u0623\u0635\u0644 \u062B\u0627\u0628\u062A \u2014"),
       assets.filter((a) => a.status === ASSET_STATUS.AVAILABLE).map((a) => /* @__PURE__ */ import_react4.default.createElement("option", { key: a.id, value: a.id }, a.tag, " \u2014 ", a.deviceType, " ", a.brand, " ", a.model, " (", a.serial, ")"))
-    ), recordForm.assetId && /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#6B7280] mt-1.5" }, "\u0639\u0628\u0651\u0626\u062A \u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u062C\u0647\u0627\u0632 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0645\u0646 \u0627\u0644\u0623\u0635\u0644 \u0627\u0644\u062B\u0627\u0628\u062A\u060C \u0648\u0633\u064A\u062A\u062D\u062F\u0651\u062B \u0631\u0642\u0645 \u062C\u0631\u062F\u0647 \u0644\u062D\u0627\u0644\u0629 \xAB\u0645\u0639 \u0645\u0648\u0638\u0641\xBB \u0628\u0639\u062F \u0627\u0644\u062D\u0641\u0638.")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4" }, /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632 *", value: recordForm.deviceType, onChange: (v) => setRecordForm({ ...recordForm, deviceType: v }), placeholder: "\u0644\u0627\u0628\u062A\u0648\u0628\u060C \u0634\u0627\u0634\u0629\u060C \u0637\u0627\u0628\u0639\u0629\u2026" }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A *", value: recordForm.serial, onChange: (v) => setRecordForm({ ...recordForm, serial: v }), mono: true }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0627\u0631\u0643\u0629", value: recordForm.brand, onChange: (v) => setRecordForm({ ...recordForm, brand: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0648\u062F\u064A\u0644", value: recordForm.model, onChange: (v) => setRecordForm({ ...recordForm, model: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0644\u062D\u0642\u0627\u062A", value: recordForm.accessories, onChange: (v) => setRecordForm({ ...recordForm, accessories: v }), placeholder: "\u0634\u0627\u062D\u0646\u060C \u062D\u0642\u064A\u0628\u0629\u2026" }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0633\u0624\u0648\u0644 \u0639\u0646 \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: recordForm.handedBy, onChange: (v) => setRecordForm({ ...recordForm, handedBy: v }), placeholder: "\u0627\u0633\u0645 \u0645\u0648\u0638\u0641 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold mb-3" }, "\u0627\u0644\u0633\u0644\u0633\u0644\u0629 \u0627\u0644\u0625\u062F\u0627\u0631\u064A\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4" }, /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0642\u0633\u0645", value: recordForm.department, onChange: (v) => setRecordForm({ ...recordForm, department: v }), placeholder: "\u0645\u062B\u0627\u0644: \u0627\u0644\u062F\u0639\u0645 \u0627\u0644\u0641\u0646\u064A" }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", value: recordForm.directManager, onChange: (v) => setRecordForm({ ...recordForm, directManager: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0628\u0631\u064A\u062F \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", type: "email", value: recordForm.directManagerEmail, onChange: (v) => setRecordForm({ ...recordForm, directManagerEmail: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0645\u062F\u064A\u0631 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0633\u0645", value: recordForm.departmentManager, onChange: (v) => setRecordForm({ ...recordForm, departmentManager: v }) }))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-5" }, /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-xs text-[#6B7280] mb-1.5 block" }, "\u0646\u0648\u0639 \u0627\u0644\u0639\u0647\u062F\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex gap-2 mb-4" }, [CUSTODY_TYPE.PERMANENT, CUSTODY_TYPE.TEMPORARY].map((t) => /* @__PURE__ */ import_react4.default.createElement(
+    ), recordForm.assetId && /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#6B7280] mt-1.5" }, "\u0639\u0628\u0651\u0626\u062A \u0628\u064A\u0627\u0646\u0627\u062A \u0627\u0644\u062C\u0647\u0627\u0632 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0645\u0646 \u0627\u0644\u0623\u0635\u0644 \u0627\u0644\u062B\u0627\u0628\u062A\u060C \u0648\u0633\u064A\u062A\u062D\u062F\u0651\u062B \u0631\u0642\u0645 \u062C\u0631\u062F\u0647 \u0644\u062D\u0627\u0644\u0629 \xAB\u0645\u0639 \u0645\u0648\u0638\u0641\xBB \u0628\u0639\u062F \u0627\u0644\u062D\u0641\u0638.")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4" }, /* @__PURE__ */ import_react4.default.createElement(DeviceTypeSelect, { label: "\u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632", required: true, value: recordForm.deviceType, onChange: (v) => setRecordForm({ ...recordForm, deviceType: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A *", value: recordForm.serial, onChange: (v) => setRecordForm({ ...recordForm, serial: v }), mono: true }), /* @__PURE__ */ import_react4.default.createElement(BrandSelect, { label: "\u0627\u0644\u0645\u0627\u0631\u0643\u0629", value: recordForm.brand, onChange: (v) => setRecordForm({ ...recordForm, brand: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0648\u062F\u064A\u0644", value: recordForm.model, onChange: (v) => setRecordForm({ ...recordForm, model: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0644\u062D\u0642\u0627\u062A", value: recordForm.accessories, onChange: (v) => setRecordForm({ ...recordForm, accessories: v }), placeholder: "\u0634\u0627\u062D\u0646\u060C \u062D\u0642\u064A\u0628\u0629\u2026" }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u0633\u0624\u0648\u0644 \u0639\u0646 \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: recordForm.handedBy, onChange: (v) => setRecordForm({ ...recordForm, handedBy: v }), placeholder: "\u0627\u0633\u0645 \u0645\u0648\u0638\u0641 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A" })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#0C8599] font-semibold mb-3" }, "\u0627\u0644\u0633\u0644\u0633\u0644\u0629 \u0627\u0644\u0625\u062F\u0627\u0631\u064A\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4" }, /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0642\u0633\u0645", value: recordForm.department, onChange: (v) => setRecordForm({ ...recordForm, department: v }), placeholder: "\u0645\u062B\u0627\u0644: \u0627\u0644\u062F\u0639\u0645 \u0627\u0644\u0641\u0646\u064A" }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", value: recordForm.directManager, onChange: (v) => setRecordForm({ ...recordForm, directManager: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0628\u0631\u064A\u062F \u0627\u0644\u0645\u062F\u064A\u0631 \u0627\u0644\u0645\u0628\u0627\u0634\u0631", type: "email", value: recordForm.directManagerEmail, onChange: (v) => setRecordForm({ ...recordForm, directManagerEmail: v }) }), /* @__PURE__ */ import_react4.default.createElement(Input, { label: "\u0645\u062F\u064A\u0631 \u0625\u062F\u0627\u0631\u0629 \u0627\u0644\u0642\u0633\u0645", value: recordForm.departmentManager, onChange: (v) => setRecordForm({ ...recordForm, departmentManager: v }) }))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-5" }, /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-xs text-[#6B7280] mb-1.5 block" }, "\u0646\u0648\u0639 \u0627\u0644\u0639\u0647\u062F\u0629"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex gap-2 mb-4" }, [CUSTODY_TYPE.PERMANENT, CUSTODY_TYPE.TEMPORARY].map((t) => /* @__PURE__ */ import_react4.default.createElement(
       "button",
       {
         key: t,
@@ -34495,7 +34891,23 @@
         className: `flex-1 text-sm px-4 py-2.5 rounded-lg border transition-colors ${recordForm.custodyType === t ? "bg-[#0C8599] border-[#0C8599] text-white" : "bg-white border-[#E3E6EA] text-[#374151] hover:bg-[#F6F7F9]"}`
       },
       t
-    ))), recordForm.custodyType === CUSTODY_TYPE.TEMPORARY && /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4" }, /* @__PURE__ */ import_react4.default.createElement(DateInput, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: recordForm.assignDate, onChange: (v) => setRecordForm({ ...recordForm, assignDate: v }) }), /* @__PURE__ */ import_react4.default.createElement(DateInput, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0625\u0631\u062C\u0627\u0639 \u0627\u0644\u0645\u062A\u0648\u0642\u0639", value: recordForm.dueDate, onChange: (v) => setRecordForm({ ...recordForm, dueDate: v }) }))), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-xs text-[#6B7280] mb-1.5 block" }, "\u0645\u0644\u0627\u062D\u0638\u0627\u062A"), /* @__PURE__ */ import_react4.default.createElement(
+    ))), recordForm.custodyType === CUSTODY_TYPE.TEMPORARY && /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-2 gap-4" }, /* @__PURE__ */ import_react4.default.createElement(DateInput, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u062A\u0633\u0644\u064A\u0645", value: recordForm.assignDate, onChange: (v) => setRecordForm({ ...recordForm, assignDate: v }) }), /* @__PURE__ */ import_react4.default.createElement(DateInput, { label: "\u062A\u0627\u0631\u064A\u062E \u0627\u0644\u0625\u0631\u062C\u0627\u0639 \u0627\u0644\u0645\u062A\u0648\u0642\u0639", value: recordForm.dueDate, onChange: (v) => setRecordForm({ ...recordForm, dueDate: v }) }))), /* @__PURE__ */ import_react4.default.createElement("div", { className: "border-t border-[#E3E6EA] pt-5" }, /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-xs text-[#6B7280] mb-1.5 block" }, "\u0637\u0631\u064A\u0642\u0629 \u062A\u0623\u0643\u064A\u062F \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex gap-2" }, /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        type: "button",
+        onClick: () => setRecordForm({ ...recordForm, deliveryMethod: "direct" }),
+        className: `flex-1 text-sm px-4 py-2.5 rounded-lg border transition-colors ${recordForm.deliveryMethod === "direct" ? "bg-[#0C8599] border-[#0C8599] text-white" : "bg-white border-[#E3E6EA] text-[#374151] hover:bg-[#F6F7F9]"}`
+      },
+      "\u062A\u0633\u0644\u064A\u0645 \u0645\u0628\u0627\u0634\u0631"
+    ), /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        type: "button",
+        onClick: () => setRecordForm({ ...recordForm, deliveryMethod: "employee_confirm" }),
+        className: `flex-1 text-sm px-4 py-2.5 rounded-lg border transition-colors ${recordForm.deliveryMethod === "employee_confirm" ? "bg-[#0C8599] border-[#0C8599] text-white" : "bg-white border-[#E3E6EA] text-[#374151] hover:bg-[#F6F7F9]"}`
+      },
+      "\u062A\u0623\u0643\u064A\u062F \u0645\u0646 \u0627\u0644\u0645\u0648\u0638\u0641 \u0639\u0628\u0631 \u0631\u0627\u0628\u0637"
+    )), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#6B7280] mt-2" }, recordForm.deliveryMethod === "direct" ? "\u062A\u064F\u0633\u062C\u064E\u0651\u0644 \u0627\u0644\u0639\u0647\u062F\u0629 \xAB\u0645\u0633\u062A\u0644\u0645\u0629\xBB \u0645\u0628\u0627\u0634\u0631\u0629 \u0628\u0645\u062C\u0631\u062F \u0627\u0644\u062D\u0641\u0638." : "\u062A\u064F\u0633\u062C\u064E\u0651\u0644 \u0627\u0644\u0639\u0647\u062F\u0629 \xAB\u0628\u0627\u0646\u062A\u0638\u0627\u0631 \u0627\u0633\u062A\u0644\u0627\u0645 \u0627\u0644\u0645\u0648\u0638\u0641\xBB\u060C \u0648\u0633\u064A\u064F\u0646\u0634\u0623 \u0644\u0643 \u0628\u0639\u062F \u0627\u0644\u062D\u0641\u0638 \u0631\u0627\u0628\u0637 \u062A\u0631\u0633\u0644\u0647 \u0644\u0647 \u2014 \u0628\u0645\u062C\u0631\u062F \u0636\u063A\u0637\u0647 \u0632\u0631 \xAB\u0627\u0633\u062A\u0644\u0627\u0645 \u0627\u0644\u0639\u0647\u062F\u0629\xBB \u062A\u062A\u062D\u062F\u062B \u0627\u0644\u062D\u0627\u0644\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0625\u0644\u0649 \xAB\u0645\u0633\u062A\u0644\u0645\u0629 \u0645\u0646 \u0642\u0628\u0644 \u0627\u0644\u0645\u0648\u0638\u0641\xBB.")), /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-xs text-[#6B7280] mb-1.5 block" }, "\u0645\u0644\u0627\u062D\u0638\u0627\u062A"), /* @__PURE__ */ import_react4.default.createElement(
       "textarea",
       {
         value: recordForm.notes,
@@ -34503,7 +34915,7 @@
         rows: 2,
         className: "w-full text-sm border border-[#E3E6EA] rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0C8599]/30"
       }
-    )), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex justify-end pt-2" }, /* @__PURE__ */ import_react4.default.createElement("button", { className: "flex items-center gap-2 bg-[#0C8599] hover:bg-[#086674] text-white text-sm px-5 py-2.5 rounded-lg transition-colors" }, /* @__PURE__ */ import_react4.default.createElement(Save, { size: 15 }), " \u062D\u0641\u0638 \u0648\u062A\u0633\u062C\u064A\u0644 \u0627\u0644\u0639\u0647\u062F\u0629")))), page === "reports" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-2xl font-bold text-[#1A2027] mb-1" }, "\u0627\u0644\u062A\u0642\u0627\u0631\u064A\u0631"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#6B7280] mb-7" }, "\u0645\u0644\u062E\u0635 \u0625\u062D\u0635\u0627\u0626\u064A \u0648\u062A\u0635\u062F\u064A\u0631 \u0633\u062C\u0644 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0643\u0627\u0645\u0644"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-3 gap-4 mb-7" }, /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0625\u062C\u0645\u0627\u0644\u064A \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0645\u0633\u062C\u0651\u0644\u0629", value: records.length, color: "#0C8599", wide: true }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0646\u0633\u0628\u0629 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0646\u0634\u0637\u0629", value: records.length ? `${Math.round(activeCount / records.length * 100)}%` : "0%", color: "#D89614", wide: true }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0646\u0633\u0628\u0629 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0645\u0631\u062C\u0639\u0629", value: records.length ? `${Math.round(returnedCount / records.length * 100)}%` : "0%", color: "#2F9E44", wide: true })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-white rounded-xl border border-[#E3E6EA] p-5 sm:p-6 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-1" }, /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-sm font-semibold text-[#1A2027]" }, "\u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0633\u062C\u0644 \u0627\u0644\u0643\u0627\u0645\u0644"), /* @__PURE__ */ import_react4.default.createElement(
+    )), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex justify-end pt-2" }, /* @__PURE__ */ import_react4.default.createElement("button", { className: "flex items-center gap-2 bg-[#0C8599] hover:bg-[#086674] text-white text-sm px-5 py-2.5 rounded-lg transition-colors" }, recordForm.deliveryMethod === "employee_confirm" ? /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(Link2, { size: 15 }), " \u062D\u0641\u0638 \u0648\u0625\u0646\u0634\u0627\u0621 \u0631\u0627\u0628\u0637 \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645") : /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(Save, { size: 15 }), " \u062D\u0641\u0638 \u0648\u062A\u0633\u062C\u064A\u0644 \u0627\u0644\u0639\u0647\u062F\u0629"))))), page === "reports" && /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("h1", { className: "text-2xl font-bold text-[#1A2027] mb-1" }, "\u0627\u0644\u062A\u0642\u0627\u0631\u064A\u0631"), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-sm text-[#6B7280] mb-7" }, "\u0645\u0644\u062E\u0635 \u0625\u062D\u0635\u0627\u0626\u064A \u0648\u062A\u0635\u062F\u064A\u0631 \u0633\u062C\u0644 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0643\u0627\u0645\u0644"), /* @__PURE__ */ import_react4.default.createElement("div", { className: "grid grid-cols-1 sm:grid-cols-3 gap-4 mb-7" }, /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0625\u062C\u0645\u0627\u0644\u064A \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0645\u0633\u062C\u0651\u0644\u0629", value: records.length, color: "#0C8599", wide: true }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0646\u0633\u0628\u0629 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0646\u0634\u0637\u0629", value: records.length ? `${Math.round(activeCount / records.length * 100)}%` : "0%", color: "#D89614", wide: true }), /* @__PURE__ */ import_react4.default.createElement(StatCard, { label: "\u0646\u0633\u0628\u0629 \u0627\u0644\u0639\u0647\u062F \u0627\u0644\u0645\u0631\u062C\u0639\u0629", value: records.length ? `${Math.round(returnedCount / records.length * 100)}%` : "0%", color: "#2F9E44", wide: true })), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-white rounded-xl border border-[#E3E6EA] p-5 sm:p-6 mb-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 mb-1" }, /* @__PURE__ */ import_react4.default.createElement("h2", { className: "text-sm font-semibold text-[#1A2027]" }, "\u062A\u0635\u062F\u064A\u0631 \u0627\u0644\u0633\u062C\u0644 \u0627\u0644\u0643\u0627\u0645\u0644"), /* @__PURE__ */ import_react4.default.createElement(
       "button",
       {
         onClick: exportExcel,
@@ -34569,7 +34981,34 @@
       },
       /* @__PURE__ */ import_react4.default.createElement(ImageOff, { size: 13 }),
       " \u0625\u0632\u0627\u0644\u0629 \u0627\u0644\u0634\u0639\u0627\u0631 \u0648\u0627\u0644\u0639\u0648\u062F\u0629 \u0644\u0644\u0627\u0641\u062A\u0631\u0627\u0636\u064A"
-    )), /* @__PURE__ */ import_react4.default.createElement("input", { ref: logoInputRef, type: "file", accept: "image/*", onChange: handleLogoChange, className: "hidden" })), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#9CA3AF] mt-3" }, "\u064A\u0641\u0636\u0651\u0644 \u0635\u0648\u0631\u0629 \u0645\u0631\u0628\u0639\u0629. \u064A\u062A\u0645 \u0636\u063A\u0637 \u0627\u0644\u0635\u0648\u0631\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0644\u0623\u0635\u063A\u0631 \u062D\u062C\u0645 \u0645\u0646\u0627\u0633\u0628 \u0642\u0628\u0644 \u0627\u0644\u062D\u0641\u0638."))))));
+    )), /* @__PURE__ */ import_react4.default.createElement("input", { ref: logoInputRef, type: "file", accept: "image/*", onChange: handleLogoChange, className: "hidden" })), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#9CA3AF] mt-3" }, "\u064A\u0641\u0636\u0651\u0644 \u0635\u0648\u0631\u0629 \u0645\u0631\u0628\u0639\u0629. \u064A\u062A\u0645 \u0636\u063A\u0637 \u0627\u0644\u0635\u0648\u0631\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0644\u0623\u0635\u063A\u0631 \u062D\u062C\u0645 \u0645\u0646\u0627\u0633\u0628 \u0642\u0628\u0644 \u0627\u0644\u062D\u0641\u0638.")), /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-white rounded-xl border border-[#E3E6EA] p-5 sm:p-6 mt-6" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2.5 mb-1" }, /* @__PURE__ */ import_react4.default.createElement(Send, { size: 16, className: "text-[#0C8599]" }), /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-sm font-semibold text-[#1A2027]" }, "\u0627\u0644\u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u062A\u0644\u0642\u0627\u0626\u064A \u0628\u0627\u0644\u0625\u064A\u0645\u064A\u0644 (EmailJS)")), /* @__PURE__ */ import_react4.default.createElement("p", { className: "text-[11px] text-[#6B7280] mb-4 leading-relaxed" }, '\u064A\u0641\u0639\u0651\u0644 \u0632\u0631 "\u0625\u0631\u0633\u0627\u0644 \u0627\u0644\u0639\u0647\u062F\u0629 \u062A\u0644\u0642\u0627\u0626\u064A\u064B\u0627 \u0628\u0627\u0644\u0625\u064A\u0645\u064A\u0644" \u0628\u062F\u0648\u0646 \u0641\u062A\u062D \u062A\u0637\u0628\u064A\u0642 \u0628\u0631\u064A\u062F \u064A\u062F\u0648\u064A\u064B\u0627. \u064A\u0639\u0645\u0644 \u0641\u0642\u0637 \u0628\u0639\u062F \u0627\u0633\u062A\u0636\u0627\u0641\u0629 \u0647\u0630\u0627 \u0627\u0644\u0645\u0644\u0641 \u0639\u0644\u0649 \u0639\u0646\u0648\u0627\u0646 \u0648\u064A\u0628 \u062D\u0642\u064A\u0642\u064A (\u0648\u0644\u064A\u0633 \u0623\u062B\u0646\u0627\u0621 \u0627\u0644\u0645\u0639\u0627\u064A\u0646\u0629 \u062F\u0627\u062E\u0644 \u0643\u0644\u0648\u062F). \u0623\u0646\u0634\u0626 \u062D\u0633\u0627\u0628\u064B\u0627 \u0645\u062C\u0627\u0646\u064A\u064B\u0627 \u0639\u0644\u0649 emailjs.com\u060C \u0627\u0631\u0628\u0637 \u0628\u0631\u064A\u062F\u0643 (Gmail \u0623\u0648 Outlook)\u060C \u0648\u0623\u0646\u0634\u0626 \u0642\u0627\u0644\u0628 \u0631\u0633\u0627\u0644\u0629 \u0628\u0639\u0646\u0648\u0627\u0646', " ", /* @__PURE__ */ import_react4.default.createElement("span", { className: "font-medium text-[#374151]" }, '"\u0625\u0633\u0646\u0627\u062F \u0639\u0647\u062F\u0629 \u0645\u0646 \u0642\u0633\u0645 \u062A\u0642\u0646\u064A\u0629 \u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062A"'), " \u064A\u062D\u062A\u0648\u064A \u0627\u0644\u0645\u062A\u063A\u064A\u0631\u0627\u062A:", " ", /* @__PURE__ */ import_react4.default.createElement("span", { className: "font-mono text-[10px]", dir: "ltr" }, "to_email, to_name, subject, message, custody_code, device_type, serial, confirm_link, system_name"), "."), /* @__PURE__ */ import_react4.default.createElement("form", { onSubmit: saveEmailjsSettings, className: "space-y-3" }, /* @__PURE__ */ import_react4.default.createElement(
+      Input,
+      {
+        label: "Service ID",
+        value: emailjsDraft.serviceId,
+        onChange: (v) => setEmailjsDraft({ ...emailjsDraft, serviceId: v }),
+        placeholder: "service_xxxxxxx",
+        mono: true
+      }
+    ), /* @__PURE__ */ import_react4.default.createElement(
+      Input,
+      {
+        label: "Template ID",
+        value: emailjsDraft.templateId,
+        onChange: (v) => setEmailjsDraft({ ...emailjsDraft, templateId: v }),
+        placeholder: "template_xxxxxxx",
+        mono: true
+      }
+    ), /* @__PURE__ */ import_react4.default.createElement(
+      Input,
+      {
+        label: "Public Key",
+        value: emailjsDraft.publicKey,
+        onChange: (v) => setEmailjsDraft({ ...emailjsDraft, publicKey: v }),
+        placeholder: "xxxxxxxxxxxxxxxxx",
+        mono: true
+      }
+    ), /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex justify-end pt-1" }, /* @__PURE__ */ import_react4.default.createElement("button", { className: "flex items-center gap-2 bg-[#0C8599] hover:bg-[#086674] text-white text-sm px-4 py-2 rounded-lg transition-colors" }, /* @__PURE__ */ import_react4.default.createElement(Save, { size: 14 }), " \u062D\u0641\u0638 \u0625\u0639\u062F\u0627\u062F\u0627\u062A \u0627\u0644\u0625\u0631\u0633\u0627\u0644"))))))));
   }
   function StatCard({ label, value, color, wide }) {
     return /* @__PURE__ */ import_react4.default.createElement("div", { className: "bg-white rounded-xl border border-[#E3E6EA] p-5" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "text-xs text-[#6B7280] mb-2" }, label), /* @__PURE__ */ import_react4.default.createElement("div", { className: `font-mono font-semibold ${wide ? "text-2xl" : "text-3xl"}`, style: { color } }, value));
@@ -34585,6 +35024,71 @@
         className: `w-full text-sm border border-[#E3E6EA] rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0C8599]/30 focus:border-[#0C8599] ${mono ? "font-mono" : ""}`
       }
     ));
+  }
+  function SelectWithOther({ label, value, onChange, options, required, placeholder = "\u0627\u062E\u062A\u0631" }) {
+    const [otherMode, setOtherMode] = (0, import_react4.useState)(value !== "" && !options.includes(value));
+    (0, import_react4.useEffect)(() => {
+      if (value !== "" && !options.includes(value)) {
+        setOtherMode(true);
+      }
+    }, [value]);
+    const handleSelect = (e) => {
+      const v = e.target.value;
+      if (v === "\u0623\u062E\u0631\u0649") {
+        setOtherMode(true);
+        onChange("");
+      } else {
+        setOtherMode(false);
+        onChange(v);
+      }
+    };
+    return /* @__PURE__ */ import_react4.default.createElement("div", null, /* @__PURE__ */ import_react4.default.createElement("label", { className: "text-xs text-[#6B7280] mb-1.5 block" }, label, required ? " *" : ""), !otherMode ? /* @__PURE__ */ import_react4.default.createElement(
+      "select",
+      {
+        value: options.includes(value) ? value : "",
+        onChange: handleSelect,
+        className: "w-full text-sm border border-[#E3E6EA] rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0C8599]/30"
+      },
+      /* @__PURE__ */ import_react4.default.createElement("option", { value: "" }, placeholder),
+      options.map((o) => /* @__PURE__ */ import_react4.default.createElement("option", { key: o, value: o }, o))
+    ) : /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-2" }, /* @__PURE__ */ import_react4.default.createElement(
+      "input",
+      {
+        type: "text",
+        value,
+        onChange: (e) => onChange(e.target.value),
+        placeholder: `\u0627\u0643\u062A\u0628 ${label}`,
+        autoFocus: true,
+        className: "flex-1 text-sm border border-[#E3E6EA] rounded-lg px-3 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0C8599]/30"
+      }
+    ), /* @__PURE__ */ import_react4.default.createElement(
+      "button",
+      {
+        type: "button",
+        onClick: () => {
+          setOtherMode(false);
+          onChange("");
+        },
+        className: "text-xs text-[#6B7280] hover:text-[#0C8599] flex-shrink-0 whitespace-nowrap"
+      },
+      "\u0631\u062C\u0648\u0639 \u0644\u0644\u0642\u0627\u0626\u0645\u0629"
+    )));
+  }
+  function DeviceTypeSelect({ label, value, onChange, required }) {
+    return /* @__PURE__ */ import_react4.default.createElement(
+      SelectWithOther,
+      {
+        label,
+        value,
+        onChange,
+        options: DEVICE_TYPES,
+        required,
+        placeholder: "\u0627\u062E\u062A\u0631 \u0646\u0648\u0639 \u0627\u0644\u062C\u0647\u0627\u0632"
+      }
+    );
+  }
+  function BrandSelect({ label, value, onChange }) {
+    return /* @__PURE__ */ import_react4.default.createElement(SelectWithOther, { label, value, onChange, options: DEVICE_BRANDS, placeholder: "\u0627\u062E\u062A\u0631 \u0627\u0644\u0645\u0627\u0631\u0643\u0629" });
   }
   function DateInput({ label, value, onChange }) {
     const isoToDisplay = (iso) => {
@@ -34633,8 +35137,8 @@
   function EmptyState({ text, plain }) {
     return /* @__PURE__ */ import_react4.default.createElement("div", { className: `text-center text-sm text-[#9CA3AF] ${plain ? "py-4" : "py-14"}` }, text);
   }
-  function RecordsTable({ rows, employeeName, onView, onReturn, onReopen, onDelete, compact, canEdit = true, canDelete = true }) {
-    return /* @__PURE__ */ import_react4.default.createElement("div", { className: "overflow-x-auto" }, /* @__PURE__ */ import_react4.default.createElement("table", { className: "w-full text-sm min-w-[720px]" }, /* @__PURE__ */ import_react4.default.createElement("thead", null, /* @__PURE__ */ import_react4.default.createElement("tr", { className: "border-b border-[#E3E6EA] text-right text-[#6B7280]" }, /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0631\u0642\u0645 \u0627\u0644\u0639\u0647\u062F\u0629"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u0645\u0648\u0638\u0641"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u062C\u0647\u0627\u0632"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u062A\u0633\u0644\u064A\u0645"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u062D\u0627\u0644\u0629"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3" }))), /* @__PURE__ */ import_react4.default.createElement("tbody", null, rows.map((r) => /* @__PURE__ */ import_react4.default.createElement("tr", { key: r.id, className: "border-b border-[#F0F1F3] last:border-0 hover:bg-[#FAFBFC]" }, /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3" }, /* @__PURE__ */ import_react4.default.createElement("span", { className: "font-mono text-xs text-[#086674]", dir: "ltr" }, r.code)), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 font-medium text-[#1A2027]" }, employeeName(r.employeeId)), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 text-[#374151]" }, r.deviceType), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 font-mono text-[#6B7280] text-xs", dir: "ltr" }, r.serial), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 text-[#6B7280] text-xs font-mono", dir: "ltr" }, formatDMY(r.assignDate)), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(StatusBadge, { status: r.status }), isOverdue(r) && /* @__PURE__ */ import_react4.default.createElement(OverdueBadge, null))), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-end gap-3" }, /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onView(r.id), className: "text-[#6B7280] hover:text-[#0C8599] transition-colors", title: "\u0639\u0631\u0636 / \u0637\u0628\u0627\u0639\u0629" }, /* @__PURE__ */ import_react4.default.createElement(Printer, { size: 15 })), !compact && canEdit && (r.status === STATUS.ACTIVE ? /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onReturn(r.id), className: "text-[#6B7280] hover:text-[#2F9E44] transition-colors", title: "\u062A\u0633\u062C\u064A\u0644 \u0627\u0633\u062A\u0631\u062C\u0627\u0639" }, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 15 })) : /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onReopen(r.id), className: "text-[#6B7280] hover:text-[#D89614] transition-colors", title: "\u0625\u0639\u0627\u062F\u0629 \u0641\u062A\u062D" }, /* @__PURE__ */ import_react4.default.createElement(RotateCcw, { size: 15 }))), !compact && canDelete && /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onDelete(r.id), className: "text-[#C7CDD4] hover:text-[#E03131] transition-colors", title: "\u062D\u0630\u0641" }, /* @__PURE__ */ import_react4.default.createElement(Trash2, { size: 15 })))))))));
+  function RecordsTable({ rows, employeeName, onView, onReturn, onReopen, onDelete, onShare, compact, canEdit = true, canDelete = true }) {
+    return /* @__PURE__ */ import_react4.default.createElement("div", { className: "overflow-x-auto" }, /* @__PURE__ */ import_react4.default.createElement("table", { className: "w-full text-sm min-w-[720px]" }, /* @__PURE__ */ import_react4.default.createElement("thead", null, /* @__PURE__ */ import_react4.default.createElement("tr", { className: "border-b border-[#E3E6EA] text-right text-[#6B7280]" }, /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0631\u0642\u0645 \u0627\u0644\u0639\u0647\u062F\u0629"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u0645\u0648\u0638\u0641"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u062C\u0647\u0627\u0632"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u0631\u0642\u0645 \u0627\u0644\u062A\u0633\u0644\u0633\u0644\u064A"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u062A\u0633\u0644\u064A\u0645"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3 font-medium" }, "\u0627\u0644\u062D\u0627\u0644\u0629"), /* @__PURE__ */ import_react4.default.createElement("th", { className: "px-5 py-3" }))), /* @__PURE__ */ import_react4.default.createElement("tbody", null, rows.map((r) => /* @__PURE__ */ import_react4.default.createElement("tr", { key: r.id, className: "border-b border-[#F0F1F3] last:border-0 hover:bg-[#FAFBFC]" }, /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3" }, /* @__PURE__ */ import_react4.default.createElement("span", { className: "font-mono text-xs text-[#086674]", dir: "ltr" }, r.code)), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 font-medium text-[#1A2027]" }, employeeName(r.employeeId)), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 text-[#374151]" }, r.deviceType), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 font-mono text-[#6B7280] text-xs", dir: "ltr" }, r.serial), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3 text-[#6B7280] text-xs font-mono", dir: "ltr" }, formatDMY(r.assignDate)), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center gap-1.5" }, /* @__PURE__ */ import_react4.default.createElement(StatusBadge, { status: statusDisplay(r) }), isOverdue(r) && /* @__PURE__ */ import_react4.default.createElement(OverdueBadge, null), isDueSoon(r) && /* @__PURE__ */ import_react4.default.createElement(DueSoonBadge, { days: daysUntilDue(r) }))), /* @__PURE__ */ import_react4.default.createElement("td", { className: "px-5 py-3" }, /* @__PURE__ */ import_react4.default.createElement("div", { className: "flex items-center justify-end gap-3" }, /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onView(r.id), className: "text-[#6B7280] hover:text-[#0C8599] transition-colors", title: "\u0639\u0631\u0636 / \u0637\u0628\u0627\u0639\u0629" }, /* @__PURE__ */ import_react4.default.createElement(Printer, { size: 15 })), !compact && canEdit && (r.status === STATUS.ACTIVE ? /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onReturn(r.id), className: "text-[#6B7280] hover:text-[#2F9E44] transition-colors", title: "\u062A\u0633\u062C\u064A\u0644 \u0627\u0633\u062A\u0631\u062C\u0627\u0639" }, /* @__PURE__ */ import_react4.default.createElement(CircleCheck, { size: 15 })) : r.status === STATUS.PENDING ? /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onShare(r.id), className: "text-[#6B7280] hover:text-[#4C3FD6] transition-colors", title: "\u0645\u0634\u0627\u0631\u0643\u0629 \u0631\u0627\u0628\u0637 \u0627\u0644\u0627\u0633\u062A\u0644\u0627\u0645" }, /* @__PURE__ */ import_react4.default.createElement(Link2, { size: 15 })) : /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onReopen(r.id), className: "text-[#6B7280] hover:text-[#D89614] transition-colors", title: "\u0625\u0639\u0627\u062F\u0629 \u0641\u062A\u062D" }, /* @__PURE__ */ import_react4.default.createElement(RotateCcw, { size: 15 }))), !compact && canDelete && /* @__PURE__ */ import_react4.default.createElement("button", { onClick: () => onDelete(r.id), className: "text-[#C7CDD4] hover:text-[#E03131] transition-colors", title: "\u062D\u0630\u0641" }, /* @__PURE__ */ import_react4.default.createElement(Trash2, { size: 15 })))))))));
   }
 
   // entry.jsx
@@ -34709,10 +35213,12 @@ lucide-react/dist/esm/icons/circle-alert.mjs:
 lucide-react/dist/esm/icons/circle-check.mjs:
 lucide-react/dist/esm/icons/clipboard-list.mjs:
 lucide-react/dist/esm/icons/clock.mjs:
+lucide-react/dist/esm/icons/copy.mjs:
 lucide-react/dist/esm/icons/download.mjs:
 lucide-react/dist/esm/icons/image-off.mjs:
 lucide-react/dist/esm/icons/laptop.mjs:
 lucide-react/dist/esm/icons/layout-dashboard.mjs:
+lucide-react/dist/esm/icons/link-2.mjs:
 lucide-react/dist/esm/icons/lock.mjs:
 lucide-react/dist/esm/icons/log-out.mjs:
 lucide-react/dist/esm/icons/menu.mjs:
@@ -34722,6 +35228,7 @@ lucide-react/dist/esm/icons/printer.mjs:
 lucide-react/dist/esm/icons/rotate-ccw.mjs:
 lucide-react/dist/esm/icons/save.mjs:
 lucide-react/dist/esm/icons/search.mjs:
+lucide-react/dist/esm/icons/send.mjs:
 lucide-react/dist/esm/icons/settings.mjs:
 lucide-react/dist/esm/icons/shield-check.mjs:
 lucide-react/dist/esm/icons/trash-2.mjs:
